@@ -8,18 +8,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello, world! Go 
-        </p>
-        <a
+          Hello, world! Go <a
           className="App-link"
           href="https://github.com/Girton-JCR/girton-jcr"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          here
-        </a>
-        <p>
-           to see the code
+        >here</a> to see the code.
         </p>
       </header>
     </div>
