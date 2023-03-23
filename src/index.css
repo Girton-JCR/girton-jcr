@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Lato'), url(./fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+.Mini {
+  font-family: Montserrat, sans-serif;
+  font-weight: light;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}

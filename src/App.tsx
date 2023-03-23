@@ -1,22 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import SiteHeader from './SiteHeader/SiteHeader';
+import SiteFooter from './SiteFooter/SiteFooter';
+import ITResources from './CollegeLife/ITResources/ITResources';
+import Accommodation from './CollegeLife/Accommodation/Accommodation';
+import BookingFacilities from './CollegeLife/BookingFacilities/BookingFacilities';
+import Catering from './CollegeLife/Catering/Catering';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello, world! Go <a
-          className="App-link"
-          href="https://github.com/Girton-JCR/girton-jcr"
-          target="_blank"
-          rel="noopener noreferrer"
-        >here</a> to see the code.
-        </p>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <SiteHeader />
+        <main>
+          <Routes>
+            <Route path="/accommodation" Component={Accommodation} />
+            <Route path='/booking-facilities' Component={BookingFacilities} />
+            <Route path='/catering' Component={Catering} />
+            <Route path="/it-resources" Component={ITResources} />
+          </Routes>
+        </main>
+        <SiteFooter />
+      </div>
+    </Router>
   );
 }
 
