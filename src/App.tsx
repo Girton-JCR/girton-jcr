@@ -10,6 +10,7 @@ import Catering from './CollegeLife/Catering/Catering';
 import ClubsAndSocieties from './CollegeLife/ClubsAndSocieties/ClubsAndSocieties';
 import Freshers from './CollegeLife/Freshers/Freshers';
 import Transport from './CollegeLife/Transport/Transport';
+import EventsCalendar from './CollegeLife/EventsCalendar/EventsCalendar';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/booking-facilities" Component={BookingFacilities} />
             <Route path="/catering" Component={Catering} />
             <Route path="/clubs-and-societies" Component={ClubsAndSocieties} />
+            <Route path="/events-calendar" Component={EventsCalendar} />
             <Route path="/freshers" Component={Freshers} />
             <Route path="/it-resources" Component={ITResources} />
             <Route path="/transport" Component={Transport} />
