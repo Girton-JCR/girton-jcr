@@ -12,6 +12,8 @@ import Freshers from './CollegeLife/Freshers/Freshers';
 import Transport from './CollegeLife/Transport/Transport';
 import EventsCalendar from './CollegeLife/EventsCalendar/EventsCalendar';
 import Welfare from './Welfare/Welfare';
+import WhatIsJCR from './JCRCommittee/WhatIsJCR/WhatIsJCR';
+import Home from './Home/Home';
 
 function App() {
   return (
@@ -26,9 +28,11 @@ function App() {
             <Route path="/clubs-and-societies" Component={ClubsAndSocieties} />
             <Route path="/events-calendar" Component={EventsCalendar} />
             <Route path="/freshers" Component={Freshers} />
+            <Route path="/" Component={Home}/>
             <Route path="/it-resources" Component={ITResources} />
             <Route path="/transport" Component={Transport} />
             <Route path="/welfare" Component={Welfare} />
+            <Route path="/what-is-the-jcr" Component={WhatIsJCR} />
           </Routes>
         </main>
         <SiteFooter />
