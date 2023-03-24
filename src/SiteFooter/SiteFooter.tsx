@@ -5,8 +5,7 @@ import '../index.css';
 function SiteFooter() {
   return (
     <div className="SiteFooter">
-      <p className="Mini">© 2023 Girton JCR IT Officer</p>
-      <p className="Mini">
+      <p className="Mini">© 2023 Girton JCR IT Officer<br/>
         Girton College Website:{' '}
         <a href="https://www.girton.cam.ac.uk" target="_blank" rel="noreferrer">
           www.girton.cam.ac.uk

@@ -7,6 +7,9 @@ import ITResources from './CollegeLife/ITResources/ITResources';
 import Accommodation from './CollegeLife/Accommodation/Accommodation';
 import BookingFacilities from './CollegeLife/BookingFacilities/BookingFacilities';
 import Catering from './CollegeLife/Catering/Catering';
+import ClubsAndSocieties from './CollegeLife/ClubsAndSocieties/ClubsAndSocieties';
+import Freshers from './CollegeLife/Freshers/Freshers';
+import Transport from './CollegeLife/Transport/Transport';
 
 function App() {
   return (
@@ -16,9 +19,12 @@ function App() {
         <main>
           <Routes>
             <Route path="/accommodation" Component={Accommodation} />
-            <Route path='/booking-facilities' Component={BookingFacilities} />
-            <Route path='/catering' Component={Catering} />
+            <Route path="/booking-facilities" Component={BookingFacilities} />
+            <Route path="/catering" Component={Catering} />
+            <Route path="/clubs-and-societies" Component={ClubsAndSocieties} />
+            <Route path="/freshers" Component={Freshers} />
             <Route path="/it-resources" Component={ITResources} />
+            <Route path="/transport" Component={Transport} />
           </Routes>
         </main>
         <SiteFooter />

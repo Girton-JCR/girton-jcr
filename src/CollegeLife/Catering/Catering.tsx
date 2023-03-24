@@ -154,9 +154,9 @@ function Catering() {
         with the Catering Office.
       </p>
       <p>
-        More details about formals can be found in the{' '}
+        More details about formals can be found in the Catering Office&apos;s{' '}
         <a href="FORMAL HALL GUIDE 2021.pdf" target="_blank" rel="noreferrer">
-          Catering Office&apos;s Guide to Formal Hall (pdf)
+          Guide to Formal Hall (pdf)
         </a>
         .
       </p>
