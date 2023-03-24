@@ -16,19 +16,19 @@ function BookingFacilities() {
         The following rooms can be booked for events via the{' '}
         <a
           href="https://girtoncollege.wufoo.com/forms/internal-event-booking/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           Internal Event Booking Form
         </a>
         : <br />
         Old Hall, Stanley Library, Dining Hall (The Great Hall), Old Kitchens,
-        Old JCR, Chapel Box Room, College Bar, The Reception Room, Fellows'
-        Dining Room, Fellows' Drawing Room, Emily Davies Rooms 1 and 2, and the
+        Old JCR, Chapel Box Room, College Bar, The Reception Room, Fellows&apos;
+        Dining Room, Fellows&apos; Drawing Room, Emily Davies Rooms 1 and 2, and the
         Social Hub Meeting Room. More information on some rooms including
         capacities can be found via the{' '}
         <a
           href="https://www.girton.cam.ac.uk/conferencing/conferences/rooms"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           Conferencing webpages
         </a>
@@ -46,7 +46,7 @@ function BookingFacilities() {
         group and individual study. For more information see the{' '}
         <a
           href="https://www.girton.cam.ac.uk/about-girton/library-archive/library"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           Library Page{' '}
         </a>
@@ -62,7 +62,7 @@ function BookingFacilities() {
         Sports Pitches can be booked by Girton College members via the{' '}
         <a
           href="https://girtoncollege.wufoo.com/forms/booking-sports-pitches-college-members-only/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           Sports Pitch Booking Form
         </a>
@@ -72,13 +72,13 @@ function BookingFacilities() {
       <h3>Swimming Pool</h3>
       <p>
         The Swimming Pool no longer needs booking for use by Girton College
-        members only. Key card access can be provided from the Porters' Lodge.
+        members only. Key card access can be provided from the Porters&apos; Lodge.
         The maximum capacity is 15 and lone swimming is not allowed as there is
         no lifeguard. For more information and the full Swimming Pool rules
         please see{' '}
         <a
           href="https://www.girton.cam.ac.uk/sports-facilities"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           here
         </a>
@@ -106,7 +106,7 @@ function BookingFacilities() {
         the{' '}
         <a
           href="https://girtoncollege.wufoo.com/forms/weights-gym-application-form/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           online form and medical questionnaire
         </a>
@@ -114,12 +114,12 @@ function BookingFacilities() {
       </p>
       <p>
         After completing this, you will be eligible to book gym sessions via the
-        Porters' Lodge at the main site (Girton College) and a door card will be
+        Porters&apos; Lodge at the main site (Girton College) and a door card will be
         issued for the booked slot, this card will need to be returned after
         your session. For more information see{' '}
         <a
           href="https://www.girton.cam.ac.uk/sports-facilities"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           here
         </a>

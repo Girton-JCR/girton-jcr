@@ -13,7 +13,7 @@ function Catering() {
         Girtonians have one less thing to worry about when in College! Students
         are able to use them without any contractual obligation beforehand,
         creating a uniquely catered and self-catered university experience at
-        the same time, compared to other colleges and universities. Don't
+        the same time, compared to other colleges and universities. Don&apos;t
         hesitate to get in touch with the{' '}
         <a href="mailto:jcr-catering@girton.cam.ac.uk">JCR Catering Officer</a>{' '}
         or the <a href="mailto:catering@girton.cam.ac.uk">Catering Office</a>{' '}
@@ -21,12 +21,13 @@ function Catering() {
         <a
           href="https://www.girton.cam.ac.uk/dining-and-socialising"
           target="_blank"
+          rel="noreferrer"
         >
           Dining & Socialising
         </a>{' '}
         Page on the College Website.
       </p>
-      <h3>Overview of Girton's Catering Facilities</h3>
+      <h3>Overview of Girton&apos;s Catering Facilities</h3>
       <p>
         There are two main facilities open daily at Girton for use by both
         students and visitors to the college.
@@ -37,7 +38,11 @@ function Catering() {
           The Social Hub (Or “Schlub”)- Serving a variety of snacks and drinks
           all day such as pizza, paninis, sandwiches and hot and cold beverages.
           You can find the Social Hub on{' '}
-          <a href="https://www.instagram.com/girtonsocialhub/" target="_blank">
+          <a
+            href="https://www.instagram.com/girtonsocialhub/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Instagram
           </a>
           .
@@ -72,6 +77,7 @@ function Catering() {
         <a
           href="https://www.vle.cam.ac.uk/course/view.php?id=107312"
           target="_blank"
+          rel="noreferrer"
         >
           Girton Catering Moodle Page
         </a>
@@ -96,7 +102,7 @@ function Catering() {
         As food for students is subsidised by College and so undergrads pay
         Member Prices in Hall and Schlub when paying with their university
         cards. These have a credit limit of £500, which can be topped up on
-        <a href="https://www.upay.co.uk/app/" target="_blank">
+        <a href="https://www.upay.co.uk/app/" target="_blank" rel="noreferrer">
           Upay
         </a>
         , and the remaining balance is added to your College Bill at the end of
@@ -110,9 +116,9 @@ function Catering() {
       </p>
       <h3>Social Hub</h3>
       <p>
-        The Girton College Social Hub Café/Bar, or "Schlub" as it's known to
-        nearly all students is essentially a café in College, where students
-        often sit and study or enjoy a snack or two with friends.
+        The Girton College Social Hub Café/Bar, or &quot;Schlub&quot; as
+        it&apos;s known to nearly all students is essentially a café in College,
+        where students often sit and study or enjoy a snack or two with friends.
       </p>
       <p>
         Schlub provides a variety of snacks, drinks, sandwiches, hot and cold
@@ -149,29 +155,30 @@ function Catering() {
       </p>
       <p>
         More details about formals can be found in the{' '}
-        <a href="FORMAL HALL GUIDE 2021.pdf" target="_blank">
-          Catering Office's Guide to Formal Hall (pdf)
+        <a href="FORMAL HALL GUIDE 2021.pdf" target="_blank" rel="noreferrer">
+          Catering Office&apos;s Guide to Formal Hall (pdf)
         </a>
         .
       </p>
       <h3>Self-Catering</h3>
       <p>
         There is no obligation to ever eat in college, though a few free events
-        may be offered to you during your time such as a free Freshers' Formal,
-        Matriculation, Halfway Hall (in 2nd year) and Graduation Feast.
+        may be offered to you during your time such as a free Freshers&apos;
+        Formal, Matriculation, Halfway Hall (in 2nd year) and Graduation Feast.
       </p>
       <p>
         If you prefer, you can always cook your own meals. You will know what
         facilities your kitchen has, most have a hob, combi-microwave, as well
-        as toasters, fridge and freezer and ovens. Girton's student kitchens are
-        more substantial than some other college's "gyps" which are really
-        designed only for light snacks.
+        as toasters, fridge and freezer and ovens. Girton&apos;s student
+        kitchens are more substantial than some other college&apos;s
+        &quot;gyps&quot; which are really designed only for light snacks.
       </p>
       <p>The nearest supermarkets to Girton are as follows:</p>
       <ul>
         <li>Co-Op - 8-minute walk (120 Girton Rd, Girton CB3 0LW)</li>
         <li>
-          Sainbury's - 6-minute cycle (27 Eddington Avenue, Cambridge CB3 1SE)
+          Sainbury&apos;s - 6-minute cycle (27 Eddington Avenue, Cambridge CB3
+          1SE)
         </li>
         <li>
           Aldi, Iceland - 9-Minute cycle (Histon Road, Cambridge, CB4 3JD)
@@ -183,8 +190,8 @@ function Catering() {
         which provides halal butchers as well as Afro-Caribbean spices and
         foodstuffs as well as Indian, Pakistani and Bengali staples. It is the
         nearest shop to provide such items, so if you ever need a particular
-        seasoning or spice that the other shops don't have, Iqbro's probably has
-        it!
+        seasoning or spice that the other shops don&apos;t have, Iqbro&apos;s
+        probably has it!
       </p>
       <p>
         Finally, there is Mill Road, a 20-minute cycle from Girton, on the
