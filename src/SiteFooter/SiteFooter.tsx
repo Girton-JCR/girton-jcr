@@ -8,7 +8,7 @@ function SiteFooter() {
       <p className="Mini">© 2023 Girton JCR IT Officer</p>
       <p className="Mini">
         Girton College Website:{' '}
-        <a href="https://www.girton.cam.ac.uk" target="_blank">
+        <a href="https://www.girton.cam.ac.uk" target="_blank" rel="noreferrer">
           www.girton.cam.ac.uk
         </a>
       </p>

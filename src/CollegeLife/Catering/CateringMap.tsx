@@ -10,7 +10,8 @@ function CateringMap() {
   const [coop, showCoop] = React.useState(false);
   const [aldi, showAldi] = React.useState(false);
   const [iceland, showIceland] = React.useState(false);
-  const offset = [50, 90];
+  const nOff = 50;
+  const eOff = 90;
 
   function hideAll() {
     showGirton(false);
@@ -27,7 +28,7 @@ function CateringMap() {
       height={500}
       defaultCenter={[52.2256, 0.0975]}
       defaultZoom={14}
-      onClick={({ event, latLng, pixel }) => {
+      onClick={() => {
         hideAll();
       }}
     >
@@ -40,7 +41,7 @@ function CateringMap() {
         }}
       />
       {girton ? (
-        <MapOverlay anchor={[52.2286, 0.0839]} offset={[50, 90]}>
+        <MapOverlay anchor={[52.2286, 0.0839]} offset={[nOff, eOff]}>
           <div className="MapOverlay">
             <p>
               Girton College
@@ -48,6 +49,7 @@ function CateringMap() {
               <a
                 href="https://www.google.com/maps/dir/?api=1&destination=Huntingdon%20Rd,%20Girton,%20Cambridge%20CB3%200JG,%20UK"
                 target="_blank"
+                rel="noreferrer"
               >
                 Directions
               </a>
@@ -66,7 +68,7 @@ function CateringMap() {
       {swirles ? (
         <MapOverlay
           anchor={[52.21917582435009, 0.08587129317852275]}
-          offset={[50, 90]}
+          offset={[nOff, eOff]}
         >
           <div className="MapOverlay">
             <p>
@@ -75,6 +77,7 @@ function CateringMap() {
               <a
                 href="https://www.google.com/maps/dir/?api=1&destination=Pheasant%20Dr,%20Cambridge,%20CB3%201AQ,%20UK"
                 target="_blank"
+                rel="noreferrer"
               >
                 Directions
               </a>
@@ -93,15 +96,16 @@ function CateringMap() {
       {sainsburys ? (
         <MapOverlay
           anchor={[52.21811012258638, 0.0873549120551039]}
-          offset={[50, 90]}
+          offset={[nOff, eOff]}
         >
           <div className="MapOverlay">
             <p>
-              Sainsbury's Eddington
+              Sainsbury&apos;s Eddington
               <br />
               <a
                 href="https://www.google.com/maps/dir/?api=1&destination=27%20Eddington%20Ave,%20Cambridge%20CB3%201SE,%20UK"
                 target="_blank"
+                rel="noreferrer"
               >
                 Directions
               </a>
@@ -120,7 +124,7 @@ function CateringMap() {
       {coop ? (
         <MapOverlay
           anchor={[52.23363425368527, 0.08616995106371961]}
-          offset={[50, 90]}
+          offset={[nOff, eOff]}
         >
           <div className="MapOverlay">
             <p>
@@ -129,6 +133,7 @@ function CateringMap() {
               <a
                 href="https://www.google.com/maps/dir/?api=1&destination=120%20Girton%20Rd,%20Girton,%20Cambridge%20CB3%200LW,%20UK"
                 target="_blank"
+                rel="noreferrer"
               >
                 Directions
               </a>
@@ -147,7 +152,7 @@ function CateringMap() {
       {aldi ? (
         <MapOverlay
           anchor={[52.21954695975649, 0.11059114870290605]}
-          offset={[50, 90]}
+          offset={[nOff, eOff]}
         >
           <div className="MapOverlay">
             <p>
@@ -156,6 +161,7 @@ function CateringMap() {
               <a
                 href="https://www.google.com/maps/dir/?api=1&destination=Histon%20Rd,%20Cambridge%20CB4%203JD,%20UK"
                 target="_blank"
+                rel="noreferrer"
               >
                 Directions
               </a>
@@ -174,7 +180,7 @@ function CateringMap() {
       {iceland ? (
         <MapOverlay
           anchor={[52.21973690562224, 0.11099479451279635]}
-          offset={[50, 90]}
+          offset={[nOff, eOff]}
         >
           <div className="MapOverlay">
             <p>
@@ -183,6 +189,7 @@ function CateringMap() {
               <a
                 href="https://www.google.com/maps/dir/?api=1&destination=Histon%20Rd,%20Cambridge%20CB4%203JD,%20UK"
                 target="_blank"
+                rel="noreferrer"
               >
                 Directions
               </a>
