@@ -11,6 +11,7 @@ import ClubsAndSocieties from './CollegeLife/ClubsAndSocieties/ClubsAndSocieties
 import Freshers from './CollegeLife/Freshers/Freshers';
 import Transport from './CollegeLife/Transport/Transport';
 import EventsCalendar from './CollegeLife/EventsCalendar/EventsCalendar';
+import Welfare from './Welfare/Welfare';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/freshers" Component={Freshers} />
             <Route path="/it-resources" Component={ITResources} />
             <Route path="/transport" Component={Transport} />
+            <Route path="/welfare" Component={Welfare} />
           </Routes>
         </main>
         <SiteFooter />
