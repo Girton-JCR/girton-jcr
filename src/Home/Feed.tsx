@@ -1,3 +1,4 @@
+import { Grid } from '@mui/material';
 import React from 'react';
 
 export interface FeedProps {
@@ -22,19 +23,17 @@ const Feed = (props: FeedProps) => {
       );
       break;
     case 'CAROUSEL_ALBUM':
-      post = (
-        <img width="100%" height="auto" id={id} src={media_url} alt={caption} />
-      );
+      post = <img width="100%" id={id} src={media_url} alt={caption} />;
       break;
     default:
-      post = (
-        <img width="100%" height="auto" id={id} src={media_url} alt={caption} />
-      );
+      post = <img width="100%" id={id} src={media_url} alt={caption} />;
   }
 
   return (
     <React.Fragment>
-      <a href={media_url}>{post}</a>
+        <Grid item xs={4}>
+            <a href={media_url}>{post}</a>
+        </Grid>
     </React.Fragment>
   );
 };

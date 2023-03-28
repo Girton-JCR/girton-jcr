@@ -10,8 +10,8 @@ function ITResources() {
       <h1>IT Resources</h1>
       <p>
         Girton has a wealth of IT Resources available for use by undergrad
-        students. If you have any queries don&apos;t hesitate to contact either the
-        JCR IT Officer or the IT Department.
+        students. If you have any queries don&apos;t hesitate to contact either
+        the JCR IT Officer or the IT Department.
       </p>
       <h3>Internet Connection</h3>
       <p>
@@ -38,10 +38,10 @@ function ITResources() {
         <li>
           Eduroam: Eduroam is an international roaming service that provides
           wifi to higher education institutions across the globe. It takes a few
-          steps to set up and usually involves setting up a &apos;token&apos; on each
-          device that needs connecting but it is well worth the effort in terms
-          of the time it will save you in the long run, as it will automatically
-          reconnect.&nvsp;
+          steps to set up and usually involves setting up a &apos;token&apos; on
+          each device that needs connecting but it is well worth the effort in
+          terms of the time it will save you in the long run, as it will
+          automatically reconnect.&nvsp;
           <a href="https://help.uis.cam.ac.uk/service/wi-fi/device-instructions">
             Instructions to set it up can be found on the UIS Website.
           </a>
@@ -71,7 +71,11 @@ function ITResources() {
           here.
         </a>
       </p>
-      <p>The college&apos;s two designated IT areas are as follows:</p>
+      <p>
+        The college&apos;s two designated IT areas are as follows:
+        <br />
+        <br />
+      </p>
       <img src={img} alt="Designated IT Areas" width="100%" />
       <p>
         There are also a limited number of laptops managed by the IT Department
@@ -102,8 +106,8 @@ function ITResources() {
         >
           here
         </a>
-        . I&apos;d advise checking that you have enough credit before heading down to
-        the printer!
+        . I&apos;d advise checking that you have enough credit before heading
+        down to the printer!
       </p>
       <p>
         There are a number of ways to use the DS-Print system in order to print:
@@ -136,9 +140,9 @@ function ITResources() {
         </li>
       </ul>
       <p>
-        Once you&apos;ve done the above, the printers at Old Kitchens and Swirles
-        Court require you to scan your University Card at the Printer to release
-        the documents. You can also use these printers to copy and scan.
+        Once you&apos;ve done the above, the printers at Old Kitchens and
+        Swirles Court require you to scan your University Card at the Printer to
+        release the documents. You can also use these printers to copy and scan.
       </p>
       <p>
         Further information about IT resources in College can be found on the

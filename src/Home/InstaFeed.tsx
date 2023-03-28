@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 
 import Feed from './Feed';
+import { Grid } from '@mui/material';
 
 interface Props {
   token: string;
@@ -43,11 +44,18 @@ const InstaFeeds = (props: Props) => {
   }, [props.limit]);
 
   return (
-    <div className="container">
-      {feeds.map((feed: { id: string; caption: string; media_type: string; media_url: string; }) => (
-        <Feed key={feed.id} feed={feed} />
-      ))}
-    </div>
+    <Grid container className="Feed" spacing={2}>
+      {feeds.map(
+        (feed: {
+          id: string;
+          caption: string;
+          media_type: string;
+          media_url: string;
+        }) => (
+          <Feed key={feed.id} feed={feed} />
+        )
+      )}
+    </Grid>
   );
 };
 

@@ -1,0 +1,17 @@
+.HomeItem {
+  width: 50%;
+  display: flex;
+}
+
+.HomeGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.CommitteePhoto {
+  display: flex;
+  margin: auto;
+  margin-top: 0;
+  width: 50%;
+}

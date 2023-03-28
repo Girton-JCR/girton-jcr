@@ -60,7 +60,8 @@ function WhatIsJCR() {
       </p>
       <p>
         You can meet the current committee and learn more about each of the JCR
-        Officers <Link to="/meet-the-committee">here</Link>.
+        Officers <Link to="/meet-the-committee">here</Link>.<br />
+        <br />
       </p>
       <img src="committee photo.webp" className="CommitteePhoto" />
     </div>

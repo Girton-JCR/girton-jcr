@@ -10,8 +10,8 @@ function Accommodation() {
       <p>
         Girton provides accommodation for all years of our undergraduate
         courses, with the options to live on the main college site, a College
-        owned-house or Swirles Court, our off-site entirely en-suite &apos;modern&apos;
-        accommodation block.
+        owned-house or Swirles Court, our off-site entirely en-suite
+        &apos;modern&apos; accommodation block.
       </p>
       <h3>Room Allocation</h3>
       <p>
@@ -47,14 +47,17 @@ function Accommodation() {
         College&apos;s fantastic Maintenance Department is there to help keep
         everything in your room in working order. If you have any problems, from
         a broken lightbulb to a window that won&apos;t shut, they will send help
-        quickly.{' '}
+        quickly.
+        <br />
+        <br />{' '}
       </p>
       <ul>
         <li>
           You can report issues using their{' '}
           <a
             href="https://app.casc.cam.ac.uk/rms_live/default.aspx?ReturnUrl=%2frms_live%2fInstHome.aspx%3fckck%3dfalse&ckck=false"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             online room management system
           </a>
@@ -65,7 +68,8 @@ function Accommodation() {
           leak, or obstruction to a fire exit) should be reported{' '}
           <a
             href="https://girtoncollege.wufoo.com/forms/girton-college-near-miss-and-hazard-form/"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             here
           </a>
@@ -77,14 +81,16 @@ function Accommodation() {
         More information about living in college can be found in the{' '}
         <a
           href="https://www.girton.cam.ac.uk/college-members/student-information/accommodation-handbook"
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
         >
           Accommodation Handbook
         </a>{' '}
         and the{' '}
         <a
           href="https://www.girton.cam.ac.uk/life-girton/accommodation-0"
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
         >
           Accommodation page
         </a>{' '}

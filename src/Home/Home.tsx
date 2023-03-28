@@ -1,7 +1,10 @@
 import React from 'react';
 import '../index.css';
+import './Home.css';
 import usePageTitle from '../usePageTitle';
 import InstaFeeds from './InstaFeed';
+import { Grid } from '@mui/material';
+import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
 
 function Home() {
   usePageTitle('Home | Girton JCR');
@@ -9,11 +12,22 @@ function Home() {
   return (
     <div className="Home">
       <h1>Home</h1>
-      <InstaFeeds
-        token={key !== undefined ? key : 'none'}
-        limit={12}
-        id="aaa"
-      />
+      <div className="HomeGrid">
+        <div className="HomeItem">
+          <img
+            className="CommitteePhoto"
+            width="100%"
+            src="./committee photo.webp"
+          />
+        </div>
+        <div className="HomeItem">
+          <InstaFeeds
+            token={key !== undefined ? key : 'none'}
+            limit={24}
+            id="aaa"
+          />
+        </div>
+      </div>
     </div>
   );
 }
