@@ -5,6 +5,9 @@ import Grow from '@mui/material/Grow';
 import Paper from '@mui/material/Paper';
 import Popper from '@mui/material/Popper';
 import { styled } from '@mui/material';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import { captureRejectionSymbol, on } from 'events';
 
 interface Props {
   children: React.ReactElement;
@@ -25,6 +28,11 @@ const StyledButton = styled(Button)({
 export default function DropDown(props: Props) {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef<HTMLButtonElement>(null);
+
+  const location = useLocation();
+  useEffect(() => {
+    setOpen(false);
+  }, [location]);
 
   const handleToggle = () => {
     setOpen((prevOpen) => !prevOpen);
