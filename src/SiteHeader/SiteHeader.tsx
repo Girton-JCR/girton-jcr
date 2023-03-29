@@ -1,10 +1,13 @@
 import {
   AppBar,
+  Box,
   Button,
   MenuItem,
   MenuList,
   Toolbar,
+  Typography,
   styled,
+  useMediaQuery,
 } from '@mui/material';
 import React from 'react';
 
@@ -27,8 +30,15 @@ const SMenuItem = styled(MenuItem)({
 });
 
 const TitleBar = styled(Toolbar)({
-  fontSize: '68px',
   paddingBottom: '0px',
+});
+
+const Title = styled(Typography)({
+  fontSize: '68px',
+  fontFamily: 'Poppins',
+  '@media (width < 1000px)': {
+    fontSize: '50px',
+  },
 });
 
 const StyledAppBar = styled(AppBar)({
@@ -45,6 +55,12 @@ const ButtonText = styled(Link)({
   textDecoration: 'none',
   fontFamily: 'Poppins',
   textTransform: 'none',
+});
+
+export const MenuButton = styled(Button)({
+  display: 'flex',
+  flexGrow: '1',
+  textAlign: 'left',
 });
 
 function HideOnScroll(props: Props) {
@@ -68,58 +84,99 @@ export default function SiteHeader(props: Props) {
     <React.Fragment>
       <HideOnScroll {...props}>
         <StyledAppBar>
-          <TitleBar>Girton College JCR</TitleBar>
+          <TitleBar>
+            <Title sx={{ flexGrow: 1 }}>Girton College JCR</Title>
+            <img src="/logo.jpg" height="128px"></img>
+          </TitleBar>
           <NavLinkBar variant="dense">
-            <Button>
-              <ButtonText to="/">Home</ButtonText>
-            </Button>
-            <DropDown name={'JCR Committee'}>
-              <MenuList>
-                <ButtonText to="/what-is-the-JCR">
-                  <SMenuItem>What is the JCR?</SMenuItem>
-                </ButtonText>
-                <ButtonText to="/JCR-news">
-                  <SMenuItem>JCR News</SMenuItem>
-                </ButtonText>
-                <ButtonText to="/meet-the-committee">
-                  <SMenuItem>Meet the Committee</SMenuItem>
-                </ButtonText>
-              </MenuList>
-            </DropDown>
-            <DropDown name={'College Life'}>
-              <MenuList>
-                <ButtonText to="/accommodation">
-                  <SMenuItem>Accommodation</SMenuItem>
-                </ButtonText>
-                <ButtonText to="/booking-facilities">
-                  <SMenuItem>Booking Facilities</SMenuItem>
-                </ButtonText>
-                <ButtonText to="/catering">
-                  <SMenuItem>Catering</SMenuItem>
-                </ButtonText>
-                <ButtonText to="/clubs-and-societies">
-                  <SMenuItem>Clubs & Societies</SMenuItem>
-                </ButtonText>
-                <ButtonText to="/freshers">
-                  <SMenuItem>Freshers</SMenuItem>
-                </ButtonText>
-                <ButtonText to="/it-resources">
-                  <SMenuItem>IT Resources</SMenuItem>
-                </ButtonText>
-                <ButtonText to="/transport">
-                  <SMenuItem>Transport</SMenuItem>
-                </ButtonText>
-                <ButtonText to="/events-calendar">
-                  <SMenuItem>Events Calendar</SMenuItem>
-                </ButtonText>
-              </MenuList>
-            </DropDown>
-            <Button>
-              <ButtonText to="/welfare">Welfare</ButtonText>
-            </Button>
-            <Button>
-              <ButtonText to="/societies-list">Societies</ButtonText>
-            </Button>
+            <Box
+              sx={{
+                flexGrow: 1,
+                display: 'flex',
+                flexDirection: 'row',
+              }}
+            >
+              <MenuButton className="Button">
+                <ButtonText to="/">Home</ButtonText>
+              </MenuButton>
+              <DropDown name={'JCR Committee'}>
+                <MenuList>
+                  <ButtonText to="/what-is-the-JCR">
+                    <SMenuItem>What is the JCR?</SMenuItem>
+                  </ButtonText>
+                  <ButtonText to="/JCR-news">
+                    <SMenuItem>JCR News</SMenuItem>
+                  </ButtonText>
+                  <ButtonText to="/meet-the-committee">
+                    <SMenuItem>Meet the Committee</SMenuItem>
+                  </ButtonText>
+                </MenuList>
+              </DropDown>
+              <DropDown name={'College Life'}>
+                <MenuList>
+                  <ButtonText to="/accommodation">
+                    <SMenuItem>Accommodation</SMenuItem>
+                  </ButtonText>
+                  <ButtonText to="/booking-facilities">
+                    <SMenuItem>Booking Facilities</SMenuItem>
+                  </ButtonText>
+                  <ButtonText to="/catering">
+                    <SMenuItem>Catering</SMenuItem>
+                  </ButtonText>
+                  <ButtonText to="/clubs-and-societies">
+                    <SMenuItem>Clubs & Societies</SMenuItem>
+                  </ButtonText>
+                  <ButtonText to="/freshers">
+                    <SMenuItem>Freshers</SMenuItem>
+                  </ButtonText>
+                  <ButtonText to="/it-resources">
+                    <SMenuItem>IT Resources</SMenuItem>
+                  </ButtonText>
+                  <ButtonText to="/transport">
+                    <SMenuItem>Transport</SMenuItem>
+                  </ButtonText>
+                  <ButtonText to="/events-calendar">
+                    <SMenuItem>Events Calendar</SMenuItem>
+                  </ButtonText>
+                </MenuList>
+              </DropDown>
+              <MenuButton>
+                <ButtonText to="/welfare">Welfare</ButtonText>
+              </MenuButton>
+              <MenuButton>
+                <ButtonText to="/societies-list">Societies</ButtonText>
+              </MenuButton>
+            </Box>
+            <Box
+              sx={{
+                width: '128px',
+                justifyContent: 'center',
+                display: 'flex',
+              }}
+            >
+              <a
+                href="https://www.facebook.com/GirtonJCR"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/Facebook.svg"
+                  height="24px"
+                  style={{ display: 'flex' }}
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/girtonjcr/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/Instagram.svg"
+                  height="24px"
+                  style={{ marginLeft: '10px', display: 'flex' }}
+                />
+              </a>
+            </Box>
           </NavLinkBar>
         </StyledAppBar>
       </HideOnScroll>

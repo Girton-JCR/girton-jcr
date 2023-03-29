@@ -7,7 +7,6 @@ import Popper from '@mui/material/Popper';
 import { styled } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import { captureRejectionSymbol, on } from 'events';
 
 interface Props {
   children: React.ReactElement;
@@ -23,6 +22,9 @@ const StyledButton = styled(Button)({
   textDecoration: 'none',
   fontFamily: 'Poppins',
   textTransform: 'none',
+  display: 'flex',
+  flexGrow: '1',
+  textAlign: 'left',
 });
 
 export default function DropDown(props: Props) {
@@ -75,7 +77,7 @@ export default function DropDown(props: Props) {
         open={open}
         anchorEl={anchorRef.current}
         role={undefined}
-        placement="bottom-start"
+        placement="bottom"
         transition
         disablePortal
       >
