@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import './index.css';
 import SiteHeader from './SiteHeader/SiteHeader';
 import SiteFooter from './SiteFooter/SiteFooter';
 import ITResources from './CollegeLife/ITResources/ITResources';

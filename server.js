@@ -1,9 +1,9 @@
 var express = require('express');
+var site = require('./App.tsx');
 var app = express();
 
 app.get('/', function (request, response) {
-  var html = '<h1>Hello World!</h1>';
-  response.send(html);
+  response.send(site);
 });
 
 var PORT = 3000;
