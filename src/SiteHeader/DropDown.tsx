@@ -24,7 +24,6 @@ const StyledButton = styled(Button)({
   textTransform: 'none',
   display: 'flex',
   flexGrow: '1',
-  textAlign: 'left',
 });
 
 export default function DropDown(props: Props) {
@@ -81,12 +80,11 @@ export default function DropDown(props: Props) {
         transition
         disablePortal
       >
-        {({ TransitionProps, placement }) => (
+        {({ TransitionProps }) => (
           <Grow
             {...TransitionProps}
             style={{
-              transformOrigin:
-                placement === 'bottom-start' ? 'left top' : 'left bottom',
+              transformOrigin: 'top',
             }}
           >
             <Background>

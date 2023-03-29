@@ -63,7 +63,16 @@ const ButtonText = styled(Link)({
 export const MenuButton = styled(Button)({
   display: 'flex',
   flexGrow: '1',
-  textAlign: 'left',
+  color: 'white',
+  textDecoration: 'none',
+  fontFamily: 'Poppins',
+  textTransform: 'none',
+});
+
+const ButtonLink = styled(Link)({
+  display: 'flex',
+  flexGrow: '1',
+  textDecoration: 'none',
 });
 
 function HideOnScroll(props: Props) {
@@ -85,9 +94,9 @@ function HideOnScroll(props: Props) {
 function NavMenu() {
   return (
     <>
-      <MenuButton className="Button">
-        <ButtonText to="/">Home</ButtonText>
-      </MenuButton>
+      <ButtonLink to="/">
+        <MenuButton>Home</MenuButton>
+      </ButtonLink>
       <DropDown name={'JCR Committee'}>
         <MenuList>
           <ButtonText to="/what-is-the-JCR">
@@ -129,12 +138,12 @@ function NavMenu() {
           </ButtonText>
         </MenuList>
       </DropDown>
-      <MenuButton>
-        <ButtonText to="/welfare">Welfare</ButtonText>
-      </MenuButton>
-      <MenuButton>
-        <ButtonText to="/societies-list">Societies</ButtonText>
-      </MenuButton>
+      <ButtonLink to="/welfare">
+        <MenuButton>Welfare</MenuButton>
+      </ButtonLink>
+      <ButtonLink to="/societies-list">
+        <MenuButton>Societies</MenuButton>
+      </ButtonLink>
     </>
   );
 }

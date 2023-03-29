@@ -38,15 +38,18 @@ h1 {
   font-size: 60px;
 }
 
+@media (width < 1000px) {
+  main {
+    padding: 80px 5% 0px 5%;
+  }
+}
+
 @media (width < 700px) {
   h1 {
     font-size: 40px;
   }
-}
-
-@media (width < 1000px) {
   main {
-    padding: 0% 5%;
+    padding: 0px 5%;
   }
 }
 
