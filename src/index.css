@@ -52,7 +52,7 @@ h1 {
 
 @media (width >= 1000px) {
   main {
-    padding: 0% 15%;
+    padding: 80px 15% 0px 15%;
   }
 }
 

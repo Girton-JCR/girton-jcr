@@ -19,7 +19,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <SiteHeader />
+        <SiteHeader>
+          <div />
+        </SiteHeader>
         <main>
           <Routes>
             <Route path="/accommodation" Component={Accommodation} />
@@ -28,7 +30,7 @@ function App() {
             <Route path="/clubs-and-societies" Component={ClubsAndSocieties} />
             <Route path="/events-calendar" Component={EventsCalendar} />
             <Route path="/freshers" Component={Freshers} />
-            <Route path="/" Component={Home}/>
+            <Route path="/" Component={Home} />
             <Route path="/it-resources" Component={ITResources} />
             <Route path="/transport" Component={Transport} />
             <Route path="/welfare" Component={Welfare} />
