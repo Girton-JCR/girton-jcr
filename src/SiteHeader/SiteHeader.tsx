@@ -7,14 +7,14 @@ import {
   Toolbar,
   Typography,
   styled,
-  useMediaQuery,
 } from '@mui/material';
-import React from 'react';
+import React, { useState } from 'react';
 
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Slide from '@mui/material/Slide';
 import { Link } from 'react-router-dom';
 import DropDown from './DropDown';
+import useWindowDimensions from '../useWindowDimensions';
 
 interface Props {
   /**
@@ -38,6 +38,9 @@ const Title = styled(Typography)({
   fontFamily: 'Poppins',
   '@media (width < 1000px)': {
     fontSize: '50px',
+  },
+  '@media (width < 700px)': {
+    fontSize: '36px',
   },
 });
 
@@ -137,58 +140,72 @@ function NavMenu() {
 }
 
 export default function SiteHeader(props: Props) {
+  const win = useWindowDimensions();
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <React.Fragment>
-      <HideOnScroll {...props}>
-        <StyledAppBar>
-          <TitleBar>
-            <Title sx={{ flexGrow: 1 }}>Girton College JCR</Title>
-            <img src="/logo.jpg" height="128px"></img>
-          </TitleBar>
-          <NavLinkBar variant="dense">
-            <Box
-              sx={{
-                flexGrow: 1,
-                display: 'flex',
-                flexDirection: 'row',
-              }}
-            >
-              <NavMenu />
-            </Box>
-            <Box
-              sx={{
-                width: '128px',
-                justifyContent: 'center',
-                display: 'flex',
-              }}
-            >
-              <a
-                href="https://www.facebook.com/GirtonJCR"
-                target="_blank"
-                rel="noreferrer"
-              >
+      <>
+        <HideOnScroll {...props}>
+          <StyledAppBar>
+            <TitleBar>
+              <Title sx={{ flexGrow: 1 }}>Girton College JCR</Title>
+              {win.width > 700 && <img src="/logo.jpg" height="128px" />}
+              {win.width <= 700 && (
                 <img
-                  src="/Facebook.svg"
-                  height="24px"
-                  style={{ display: 'flex' }}
+                  src={menuOpen ? '/menu-close.svg' : '/menu-icon.svg'}
+                  style={{ filter: 'invert(100%)' }}
+                  height="36px"
+                  onClick={() => setMenuOpen(!menuOpen)}
                 />
-              </a>
-              <a
-                href="https://www.instagram.com/girtonjcr/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src="/Instagram.svg"
-                  height="24px"
-                  style={{ marginLeft: '10px', display: 'flex' }}
-                />
-              </a>
-            </Box>
-          </NavLinkBar>
-        </StyledAppBar>
-      </HideOnScroll>
-      <Toolbar />
+              )}
+            </TitleBar>
+            {win.width > 700 && (
+              <NavLinkBar variant="dense">
+                <Box
+                  sx={{
+                    flexGrow: 1,
+                    display: 'flex',
+                    flexDirection: 'row',
+                  }}
+                >
+                  <NavMenu />
+                </Box>
+                <Box
+                  sx={{
+                    width: '128px',
+                    justifyContent: 'center',
+                    display: 'flex',
+                  }}
+                >
+                  <a
+                    href="https://www.facebook.com/GirtonJCR"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="/Facebook.svg"
+                      height="24px"
+                      style={{ display: 'flex' }}
+                    />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/girtonjcr/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="/Instagram.svg"
+                      height="24px"
+                      style={{ marginLeft: '10px', display: 'flex' }}
+                    />
+                  </a>
+                </Box>
+              </NavLinkBar>
+            )}
+          </StyledAppBar>
+        </HideOnScroll>
+        <Toolbar />
+      </>
     </React.Fragment>
   );
 }
