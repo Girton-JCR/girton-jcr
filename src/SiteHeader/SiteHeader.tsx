@@ -79,6 +79,63 @@ function HideOnScroll(props: Props) {
   );
 }
 
+function NavMenu() {
+  return (
+    <>
+      <MenuButton className="Button">
+        <ButtonText to="/">Home</ButtonText>
+      </MenuButton>
+      <DropDown name={'JCR Committee'}>
+        <MenuList>
+          <ButtonText to="/what-is-the-JCR">
+            <SMenuItem>What is the JCR?</SMenuItem>
+          </ButtonText>
+          <ButtonText to="/JCR-news">
+            <SMenuItem>JCR News</SMenuItem>
+          </ButtonText>
+          <ButtonText to="/meet-the-committee">
+            <SMenuItem>Meet the Committee</SMenuItem>
+          </ButtonText>
+        </MenuList>
+      </DropDown>
+      <DropDown name={'College Life'}>
+        <MenuList>
+          <ButtonText to="/accommodation">
+            <SMenuItem>Accommodation</SMenuItem>
+          </ButtonText>
+          <ButtonText to="/booking-facilities">
+            <SMenuItem>Booking Facilities</SMenuItem>
+          </ButtonText>
+          <ButtonText to="/catering">
+            <SMenuItem>Catering</SMenuItem>
+          </ButtonText>
+          <ButtonText to="/clubs-and-societies">
+            <SMenuItem>Clubs & Societies</SMenuItem>
+          </ButtonText>
+          <ButtonText to="/freshers">
+            <SMenuItem>Freshers</SMenuItem>
+          </ButtonText>
+          <ButtonText to="/it-resources">
+            <SMenuItem>IT Resources</SMenuItem>
+          </ButtonText>
+          <ButtonText to="/transport">
+            <SMenuItem>Transport</SMenuItem>
+          </ButtonText>
+          <ButtonText to="/events-calendar">
+            <SMenuItem>Events Calendar</SMenuItem>
+          </ButtonText>
+        </MenuList>
+      </DropDown>
+      <MenuButton>
+        <ButtonText to="/welfare">Welfare</ButtonText>
+      </MenuButton>
+      <MenuButton>
+        <ButtonText to="/societies-list">Societies</ButtonText>
+      </MenuButton>
+    </>
+  );
+}
+
 export default function SiteHeader(props: Props) {
   return (
     <React.Fragment>
@@ -96,56 +153,7 @@ export default function SiteHeader(props: Props) {
                 flexDirection: 'row',
               }}
             >
-              <MenuButton className="Button">
-                <ButtonText to="/">Home</ButtonText>
-              </MenuButton>
-              <DropDown name={'JCR Committee'}>
-                <MenuList>
-                  <ButtonText to="/what-is-the-JCR">
-                    <SMenuItem>What is the JCR?</SMenuItem>
-                  </ButtonText>
-                  <ButtonText to="/JCR-news">
-                    <SMenuItem>JCR News</SMenuItem>
-                  </ButtonText>
-                  <ButtonText to="/meet-the-committee">
-                    <SMenuItem>Meet the Committee</SMenuItem>
-                  </ButtonText>
-                </MenuList>
-              </DropDown>
-              <DropDown name={'College Life'}>
-                <MenuList>
-                  <ButtonText to="/accommodation">
-                    <SMenuItem>Accommodation</SMenuItem>
-                  </ButtonText>
-                  <ButtonText to="/booking-facilities">
-                    <SMenuItem>Booking Facilities</SMenuItem>
-                  </ButtonText>
-                  <ButtonText to="/catering">
-                    <SMenuItem>Catering</SMenuItem>
-                  </ButtonText>
-                  <ButtonText to="/clubs-and-societies">
-                    <SMenuItem>Clubs & Societies</SMenuItem>
-                  </ButtonText>
-                  <ButtonText to="/freshers">
-                    <SMenuItem>Freshers</SMenuItem>
-                  </ButtonText>
-                  <ButtonText to="/it-resources">
-                    <SMenuItem>IT Resources</SMenuItem>
-                  </ButtonText>
-                  <ButtonText to="/transport">
-                    <SMenuItem>Transport</SMenuItem>
-                  </ButtonText>
-                  <ButtonText to="/events-calendar">
-                    <SMenuItem>Events Calendar</SMenuItem>
-                  </ButtonText>
-                </MenuList>
-              </DropDown>
-              <MenuButton>
-                <ButtonText to="/welfare">Welfare</ButtonText>
-              </MenuButton>
-              <MenuButton>
-                <ButtonText to="/societies-list">Societies</ButtonText>
-              </MenuButton>
+              <NavMenu />
             </Box>
             <Box
               sx={{
