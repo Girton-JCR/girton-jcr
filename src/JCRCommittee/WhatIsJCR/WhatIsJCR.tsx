@@ -5,7 +5,7 @@ import usePageTitle from '../../usePageTitle';
 import { Link } from 'react-router-dom';
 
 function WhatIsJCR() {
-  usePageTitle('what is the JCR? | Girton JCR');
+  usePageTitle('What is the JCR? | Girton JCR');
   return (
     <div className="WhatIsJCR">
       <h1>What is the JCR?</h1>

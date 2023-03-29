@@ -3,8 +3,6 @@ import '../index.css';
 import './Home.css';
 import usePageTitle from '../usePageTitle';
 import InstaFeeds from './InstaFeed';
-import { Grid } from '@mui/material';
-import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
 
 function Home() {
   usePageTitle('Home | Girton JCR');
