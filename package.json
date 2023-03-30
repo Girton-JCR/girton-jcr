@@ -1,7 +1,7 @@
 {
   "name": "girton-jcr",
   "version": "0.1.0",
-  "homepage": "http://srw73.user.srcf.net/",
+  "homepage": "http://girtonjcr.soc.srcf.net/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
