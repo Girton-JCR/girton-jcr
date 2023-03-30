@@ -106,6 +106,7 @@ const NavBox = styled(Box)({
     width: '100%',
     height: 'calc(100% - 48px)',
     flexGrow: 1,
+    overflowY: 'scroll',
   },
 });
 
