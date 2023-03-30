@@ -42,7 +42,7 @@ const Title = styled(Typography)({
     fontSize: '50px',
   },
   '@media (width < 700px)': {
-    fontSize: '36px',
+    fontSize: '30px',
   },
 });
 
