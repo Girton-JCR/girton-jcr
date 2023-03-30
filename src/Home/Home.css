@@ -1,8 +1,3 @@
-.HomeItem {
-  width: 50%;
-  display: flex;
-}
-
 .HomeGrid {
   display: flex;
   flex-direction: row;
@@ -13,4 +8,18 @@
   display: flex;
   margin: auto;
   margin-top: 0;
+}
+
+@media (width <= 700px) {
+  .HomeItem {
+    width: 100%;
+    display: flex;
+  }
+}
+
+@media (width > 700px) {
+  .HomeItem {
+    width: 50%;
+    display: flex;
+  }
 }
