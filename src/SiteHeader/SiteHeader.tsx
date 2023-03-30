@@ -5,11 +5,10 @@ import {
   MenuItem,
   MenuList,
   Toolbar,
-  Typography,
   styled,
 } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-
+import './SiteHeader.css';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Slide from '@mui/material/Slide';
 import { Link, useLocation } from 'react-router-dom';
@@ -32,18 +31,6 @@ const SMenuItem = styled(MenuItem)({
 
 const TitleBar = styled(Toolbar)({
   paddingBottom: '0px',
-});
-
-const Title = styled(Typography)({
-  fontSize: '68px',
-  fontFamily: 'Poppins',
-  color: 'white',
-  '@media (width < 1000px)': {
-    fontSize: '50px',
-  },
-  '@media (width < 700px)': {
-    fontSize: '30px',
-  },
 });
 
 const StyledAppBar = styled(AppBar)({
@@ -125,10 +112,10 @@ const SocialBox = styled(Box)({
 });
 
 const HamburgerTitle = styled(Box)({
-  margin: '0 15px',
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
+  padding: '0 15px',
 });
 
 interface NavProps {
@@ -142,7 +129,13 @@ function NavMenu(props: NavProps) {
       <NavBox>
         {win.width <= 700 && (
           <HamburgerTitle>
-            <Title sx={{ flexGrow: 1 }}>Girton College JCR</Title>
+            <div style={{ flexGrow: 1 }}>
+              <img
+                className="HeaderText"
+                src="/header-text.svg"
+                width={'100%'}
+              />
+            </div>
             <img
               src={'/menu-close.svg'}
               style={{ filter: 'invert(100%)' }}
@@ -243,7 +236,13 @@ export default function SiteHeader(props: Props) {
             <HideOnScroll {...props}>
               <StyledAppBar>
                 <TitleBar>
-                  <Title sx={{ flexGrow: 1 }}>Girton College JCR</Title>
+                  <div style={{ flexGrow: 1 }}>
+                    <img
+                      className="HeaderText"
+                      src="/header-text.svg"
+                      width={'100%'}
+                    />
+                  </div>
                   {win.width > 700 && <img src="/logo.jpg" height="128px" />}
                   {win.width <= 700 && (
                     <img
