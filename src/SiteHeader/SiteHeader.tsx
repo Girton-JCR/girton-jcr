@@ -67,6 +67,7 @@ export const MenuButton = styled(Button)({
   textDecoration: 'none',
   fontFamily: 'Poppins',
   textTransform: 'none',
+  fontSize: '16px',
 });
 
 const ButtonLink = styled(Link)({

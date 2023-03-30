@@ -24,6 +24,7 @@ const StyledButton = styled(Button)({
   textTransform: 'none',
   display: 'flex',
   flexGrow: '1',
+  fontSize: '16px',
 });
 
 export default function DropDown(props: Props) {
