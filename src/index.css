@@ -38,9 +38,17 @@ h1 {
   font-size: 60px;
 }
 
+h2 {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
 @media (width < 1000px) {
   main {
-    padding: 80px 5% 0px 5%;
+    padding: 100px 5% 0px 5%;
   }
 }
 
@@ -49,7 +57,7 @@ h1 {
     font-size: 40px;
   }
   main {
-    padding: 0px 5%;
+    padding: 10px 5%;
   }
 }
 

@@ -9,21 +9,38 @@ function Home() {
   const key = process.env['REACT_APP_INSTAGRAM_KEY'];
   return (
     <div className="Home">
-      <h1>Home</h1>
       <div className="HomeGrid">
+        <div className="HomeItem">
+          <h2>Welcome to the Girton JCR Website!</h2>
+          <p>
+            We&apos;re the Girton College JCR Committee, and we represent the
+            undergraduate body here at Girton. Here on our website, you can find
+            out more about us and our work, with live updates on their way. We
+            also have lots of information on college services that undergrad
+            students can access, welfare resources curated by our welfare
+            officers, and information for incoming freshers before they join us!
+          </p>
+        </div>
         <div className="HomeItem">
           <img
             className="CommitteePhoto"
             width="100%"
             src="./committee photo.webp"
           />
+          <div className="Mini" style={{ textAlign: 'center' }}>
+            Girton JCR Committee 2022
+          </div>
         </div>
         <div className="HomeItem">
+          <h2>Recent Instagram Posts</h2>
           <InstaFeeds
             token={key !== undefined ? key : 'none'}
             limit={24}
             id="aaa"
           />
+        </div>
+        <div className="HomeItem">
+          <h2>Blog coming soon!</h2>
         </div>
       </div>
     </div>

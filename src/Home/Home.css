@@ -1,25 +1,30 @@
 .HomeGrid {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .CommitteePhoto {
   display: flex;
   margin: auto;
-  margin-top: 0;
+  width: 95%;
 }
 
 @media (width <= 700px) {
   .HomeItem {
     width: 100%;
-    display: flex;
   }
 }
 
 @media (width > 700px) {
   .HomeItem {
-    width: 50%;
-    display: flex;
+    width: 46%;
+    padding: 5% 2% 0% 2%;
   }
+}
+
+.HomeItem {
+  display: flex;
+  flex-direction: column;
 }
