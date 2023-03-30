@@ -14,6 +14,7 @@ import Slide from '@mui/material/Slide';
 import { Link, useLocation } from 'react-router-dom';
 import DropDown from './DropDown';
 import useWindowDimensions from '../useWindowDimensions';
+import zIndex from '@mui/material/styles/zIndex';
 
 interface Props {
   /**
@@ -91,9 +92,10 @@ const NavBox = styled(Box)({
     backgroundColor: '#154732',
     flexDirection: 'column',
     width: '100%',
-    height: 'calc(100% - 48px)',
+    height: 'calc(100vh - 48px)',
     flexGrow: 1,
     overflowY: 'scroll',
+    zIndex: 9999,
   },
 });
 
@@ -108,6 +110,7 @@ const SocialBox = styled(Box)({
     position: 'fixed',
     bottom: '0',
     width: '100%',
+    zIndex: 9999,
   },
 });
 
