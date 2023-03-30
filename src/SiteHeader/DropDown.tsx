@@ -7,6 +7,7 @@ import Popper from '@mui/material/Popper';
 import { styled } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import useWindowDimensions from '../useWindowDimensions';
 
 interface Props {
   children: React.ReactElement;
@@ -61,6 +62,8 @@ export default function DropDown(props: Props) {
     prevOpen.current = open;
   }, [open]);
 
+  const win = useWindowDimensions();
+
   return (
     <>
       <StyledButton
@@ -72,30 +75,40 @@ export default function DropDown(props: Props) {
         onClick={handleToggle}
       >
         {props.name}
-      </StyledButton>
-      <Popper
-        open={open}
-        anchorEl={anchorRef.current}
-        role={undefined}
-        placement="bottom"
-        transition
-        disablePortal
-      >
-        {({ TransitionProps }) => (
-          <Grow
-            {...TransitionProps}
-            style={{
-              transformOrigin: 'top',
-            }}
-          >
-            <Background>
-              <ClickAwayListener onClickAway={handleClose}>
-                {props.children}
-              </ClickAwayListener>
-            </Background>
-          </Grow>
+        {win.width <= 700 && (
+          <img
+            src={open ? '/expand_less.svg' : '/expand_more.svg'}
+            style={{ filter: 'invert(100%)' }}
+            height="32px"
+          ></img>
         )}
-      </Popper>
+      </StyledButton>
+      {win.width > 700 && (
+        <Popper
+          open={open}
+          anchorEl={anchorRef.current}
+          role={undefined}
+          placement="bottom"
+          transition
+          disablePortal
+        >
+          {({ TransitionProps }) => (
+            <Grow
+              {...TransitionProps}
+              style={{
+                transformOrigin: 'top',
+              }}
+            >
+              <Background>
+                <ClickAwayListener onClickAway={handleClose}>
+                  {props.children}
+                </ClickAwayListener>
+              </Background>
+            </Grow>
+          )}
+        </Popper>
+      )}
+      {win.width <= 700 && open && props.children}
     </>
   );
 }
