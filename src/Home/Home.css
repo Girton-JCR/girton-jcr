@@ -11,13 +11,13 @@
   width: 95%;
 }
 
-@media (width <= 700px) {
+@media (max-width: 700px) {
   .HomeItem {
     width: 100%;
   }
 }
 
-@media (width > 700px) {
+@media (min-width: 701px) {
   .HomeItem {
     width: 46%;
     padding: 5% 2% 0% 2%;

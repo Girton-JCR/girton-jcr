@@ -82,38 +82,6 @@ function HideOnScroll(props: Props) {
   );
 }
 
-const NavBox = styled(Box)({
-  flexGrow: 1,
-  display: 'flex',
-  flexDirection: 'row',
-  '@media (width <= 700px)': {
-    position: 'fixed',
-    top: '0',
-    backgroundColor: '#154732',
-    flexDirection: 'column',
-    width: '100%',
-    height: 'calc(100vh - 48px)',
-    flexGrow: 1,
-    overflowY: 'scroll',
-    zIndex: 9999,
-  },
-});
-
-const SocialBox = styled(Box)({
-  width: '128px',
-  justifyContent: 'center',
-  display: 'flex',
-  '@media (width <= 700px)': {
-    flexDirection: 'row',
-    backgroundColor: '#154732',
-    height: '48px',
-    position: 'fixed',
-    bottom: '0',
-    width: '100%',
-    zIndex: 9999,
-  },
-});
-
 const HamburgerTitle = styled(Box)({
   display: 'flex',
   flexDirection: 'row',
@@ -129,7 +97,7 @@ function NavMenu(props: NavProps) {
   const win = useWindowDimensions();
   return (
     <>
-      <NavBox>
+      <div className="NavBox">
         {win.width <= 700 && (
           <HamburgerTitle>
             <div style={{ flexGrow: 1 }}>
@@ -197,27 +165,25 @@ function NavMenu(props: NavProps) {
         <ButtonLink to="/societies-list">
           <MenuButton>Societies</MenuButton>
         </ButtonLink>
-      </NavBox>
-      <SocialBox>
+      </div>
+      <div className="SocialBox">
         <a
           href="https://www.facebook.com/GirtonJCR"
           target="_blank"
           rel="noreferrer"
+          style={{ display: 'flex' }}
         >
-          <img src="/Facebook.svg" height="24px" style={{ display: 'flex' }} />
+          <img src="/Facebook.svg" height="24px" />
         </a>
         <a
           href="https://www.instagram.com/girtonjcr/"
           target="_blank"
           rel="noreferrer"
+          style={{ marginLeft: '10px', display: 'flex' }}
         >
-          <img
-            src="/Instagram.svg"
-            height="24px"
-            style={{ marginLeft: '10px', display: 'flex' }}
-          />
+          <img src="/Instagram.svg" height="24px" />
         </a>
-      </SocialBox>
+      </div>
     </>
   );
 }
