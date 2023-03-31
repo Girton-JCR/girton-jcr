@@ -46,6 +46,10 @@ h2 {
   text-align: center;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @media (width < 1000px) {
   main {
     padding: 100px 5% 0px 5%;
