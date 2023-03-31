@@ -25,7 +25,7 @@ function Home() {
           <img
             className="CommitteePhoto"
             width="100%"
-            src="./committee photo.webp"
+            src="./committee photo.png"
           />
           <div className="Mini" style={{ textAlign: 'center' }}>
             Girton JCR Committee 2022

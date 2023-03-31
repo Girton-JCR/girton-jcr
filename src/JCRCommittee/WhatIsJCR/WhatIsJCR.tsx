@@ -63,7 +63,7 @@ function WhatIsJCR() {
         Officers <Link to="/meet-the-committee">here</Link>.<br />
         <br />
       </p>
-      <img src="committee photo.webp" className="CommitteePhoto" />
+      <img src="committee photo.png" className="CommitteePhoto" />
     </div>
   );
 }
