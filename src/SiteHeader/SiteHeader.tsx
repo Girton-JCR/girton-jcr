@@ -14,7 +14,6 @@ import Slide from '@mui/material/Slide';
 import { Link, useLocation } from 'react-router-dom';
 import DropDown from './DropDown';
 import useWindowDimensions from '../useWindowDimensions';
-import zIndex from '@mui/material/styles/zIndex';
 
 interface Props {
   /**
