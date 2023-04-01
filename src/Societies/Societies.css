@@ -1,0 +1,60 @@
+.SocialIcon {
+  max-height: 32px;
+  filter: invert(100%);
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.WebIcon {
+  max-height: 32px;
+}
+
+.TextSection {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+@media (min-width: 701px) {
+  .TextSection {
+    width: 70%;
+  }
+  .SocietyImage {
+    width: 30%;
+    border-radius: 0 4px 4px 0;
+  }
+  .SocietyFlexBox {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 700px) {
+  .TextSection {
+    width: 90%;
+  }
+  .SocietyImage {
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+  }
+  .SocietyFlexBox {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.SocietyImage {
+  min-height: 100px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.SocietyGroupHeader {
+  text-align: left;
+  flex-grow: 1;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none;
+  margin: 0;
+}
