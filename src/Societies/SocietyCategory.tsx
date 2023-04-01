@@ -13,6 +13,11 @@ const SocietyBox = styled(Paper)({
 function SocietyCategory(props: CategoryProps) {
   const { category } = props;
   const group = SocietiesList.filter((a) => a.Category === category);
+  group.sort((a, b) => {
+    if (a.Title < b.Title) return -1;
+    else if (a.Title === b.Title) return 0;
+    else return 1;
+  });
   return (
     <>
       {group.map((item) => (
