@@ -6,7 +6,7 @@ function SiteFooter() {
   return (
     <div className="SiteFooter">
       <p className="Mini">
-        © 2023{' '}
+        © 2022-{new Date().getFullYear()}{' '}
         <a
           href="https://github.com/Girton-JCR/girton-jcr"
           target="_blank"

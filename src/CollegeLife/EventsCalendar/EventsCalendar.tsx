@@ -11,10 +11,7 @@ function EventsCalendar() {
         This event calendar will be updated before each term. If you have any
         queries or suggestions on events you think the JCR should run for
         undergraduates, please contact the{' '}
-        <a href="https://www.girtonjcr.co.uk/meet-the-committee">
-          JCR Events Officer
-        </a>
-        .
+        <a href="mailto:jcr-ents@girton.cam.ac.uk">JCR Events Officer</a>.
       </p>
       <p>Check back soon to see the events calendar!</p>
     </div>

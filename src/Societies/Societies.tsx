@@ -17,10 +17,10 @@ const Header = styled(Paper)({
 
 function Societies() {
   usePageTitle('Societies | Girton JCR');
-  const [sportOpen, setSportOpen] = useState(false);
-  const [subjectOpen, setSubjectOpen] = useState(false);
-  const [culturalOpen, setCulturalOpen] = useState(false);
-  const [otherOpen, setOtherOpen] = useState(false);
+  const [sportOpen, setSportOpen] = useState(true);
+  const [subjectOpen, setSubjectOpen] = useState(true);
+  const [culturalOpen, setCulturalOpen] = useState(true);
+  const [otherOpen, setOtherOpen] = useState(true);
   return (
     <div className="Societies">
       <h1>Societies</h1>
@@ -72,6 +72,13 @@ function Societies() {
         />
       </Header>
       {otherOpen && <SocietyCategory category="Other" />}
+      <p>
+        If you run a society and wish to add information about it, please email{' '}
+        <a href="mailto:jcr-webmaster@girton.cam.ac.uk">
+          jcr-webmaster@girton.cam.ac.uk
+        </a>
+        .
+      </p>
     </div>
   );
 }
