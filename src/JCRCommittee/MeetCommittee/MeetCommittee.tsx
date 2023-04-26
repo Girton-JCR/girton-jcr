@@ -3,6 +3,7 @@ import '../../index.css';
 import usePageTitle from '../../usePageTitle';
 import CommitteeMembers from './committee.json';
 import CommitteeRoles from './committee-roles.json';
+import './MeetCommittee.css';
 
 function MeetCommittee() {
   usePageTitle('Meet the Committee | Girton JCR');
@@ -43,6 +44,24 @@ function MeetCommittee() {
           );
         })}
       </p>
+      <div className="MemberGallery">
+        {CommitteeMembers.map((member) => {
+          return (
+            <>
+              <div className="MemberBox">
+                <h3>{member.Role}</h3>
+                <p style={{ fontFamily: 'Poppins' }}>
+                  {member.FirstName} {member.LastName}
+                </p>
+                <img
+                  className="JCRMemberPhoto"
+                  src={'/Committee/' + member.Image}
+                />
+              </div>
+            </>
+          );
+        })}
+      </div>
     </div>
   );
 }

@@ -1,163 +1,163 @@
-  [
+[
   {
     "Role": "Catering Officer",
     "FirstName": "Alasdair",
     "LastName": "Harrison",
     "Pronouns": "he/him",
-    "Image": null
+    "Image": "Alasdair.jpg"
   },
   {
     "Role": "Accommodation Officer",
     "FirstName": "Alex",
     "LastName": "Howe",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Alex.jpg"
   },
   {
     "Role": "Sustainability & Ethical Affairs Officer",
     "FirstName": "Anna",
     "LastName": "Williams Moura Costa",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Anna.jpg"
   },
   {
     "Role": "Access & Academic Officer",
     "FirstName": "Cheyenne",
     "LastName": "Williams",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Cheyenne.jpg"
   },
   {
     "Role": "Executive Secretary",
     "FirstName": "Daisy",
     "LastName": "Smith",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Daisy.jpg"
   },
   {
     "Role": "Ethnic Minorities Officer",
     "FirstName": "Derin",
     "LastName": "Awujoola",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Derin.jpg"
   },
   {
     "Role": "Women's Officer",
     "FirstName": "Emma",
     "LastName": "Hain",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Emma.png"
   },
   {
     "Role": "Socio-Economic Inclusivity Officer",
     "FirstName": "Fiona",
     "LastName": "Peddie",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Fiona.jpg"
   },
   {
     "Role": "Welfare Officer",
     "FirstName": "George",
     "LastName": "Quarton",
     "Pronouns": "he/they",
-    "Image": null
+    "Image": "George.jpg"
   },
   {
     "Role": "Ethnic Minorities Officer",
     "FirstName": "Hadeal",
     "LastName": "Abdelatti",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Hadeal.jpg"
   },
   {
     "Role": "Vice-President",
     "FirstName": "Hasan",
     "LastName": "Lone",
     "Pronouns": "he/him",
-    "Image": null
+    "Image": "Hasan.jpg"
   },
   {
     "Role": "President",
     "FirstName": "Ianthe",
     "LastName": "Hill",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Ianthe.jpg"
   },
   {
     "Role": "LGBTQ+ Officer",
     "FirstName": "Ioan",
     "LastName": "Higgins",
     "Pronouns": "he/him",
-    "Image": null
+    "Image": "Ioan.jpg"
   },
   {
     "Role": "Bike Officer",
     "FirstName": "Jake",
     "LastName": "Barnes",
     "Pronouns": "he/him",
-    "Image": null
+    "Image": "Jake.jpg"
   },
   {
     "Role": "Treasurer",
     "FirstName": "Jared",
     "LastName": "Seabrook-Wafer",
     "Pronouns": "he/him",
-    "Image": null
+    "Image": "Jared.jpg"
   },
   {
     "Role": "Sports Officer",
     "FirstName": "Luke",
     "LastName": "Challender",
     "Pronouns": "he/him",
-    "Image": null
+    "Image": "Luke.jpg"
   },
   {
     "Role": "Physical & Mental Disabilities Officer",
     "FirstName": "Maddie",
     "LastName": "Robertson",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Maddie.jpg"
   },
   {
     "Role": "Transgender & Non-Binary Officer",
     "FirstName": "Quinn",
     "LastName": "Vakharia",
     "Pronouns": "they/them",
-    "Image": null
+    "Image": "Quinn.jpg"
   },
   {
     "Role": "IT Officer",
     "FirstName": "Sam",
     "LastName": "Williams",
     "Pronouns": "he/him",
-    "Image": null
+    "Image": "Sam.jpg"
   },
   {
     "Role": "International Officer",
     "FirstName": "Stine",
     "LastName": "Bentzen",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Stine.jpg"
   },
   {
     "Role": "Freshers' Representative",
     "FirstName": "Tabita",
     "LastName": "Bobs",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Tabita.jpg"
   },
   {
     "Role": "Events Officer",
     "FirstName": "Zara",
     "LastName": "Wedgewood",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Zara.jpg"
   },
   {
     "Role": "Welfare Officer",
     "FirstName": "Zelda",
     "LastName": "Brufal",
     "Pronouns": "she/her",
-    "Image": null
+    "Image": "Zelda.jpg"
   }
 ]

@@ -1,0 +1,44 @@
+.JCRMemberPhoto {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+.MemberBox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.MemberGallery {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .MemberBox {
+    width: 100%;
+  }
+  .JCRMemberPhoto {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 701px) {
+  .MemberBox {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1001px) {
+  .MemberBox {
+    width: 30%;
+  }
+}
