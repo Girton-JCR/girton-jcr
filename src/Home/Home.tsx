@@ -28,7 +28,7 @@ function Home() {
             src="./committee photo.png"
           />
           <div className="Mini" style={{ textAlign: 'center' }}>
-            Girton JCR Committee 2022
+            Girton JCR Committee 2023
           </div>
         </div>
         <div className="HomeItem">
