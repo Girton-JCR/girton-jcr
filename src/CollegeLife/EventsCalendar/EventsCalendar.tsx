@@ -4,7 +4,6 @@ import usePageTitle from '../../usePageTitle';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import iCalendarPlugin from '@fullcalendar/icalendar';
 import FullCalendar from '@fullcalendar/react';
-import './EventsCalendar.css';
 
 function EventsCalendar() {
   usePageTitle('Events Calendar  | Girton JCR');
