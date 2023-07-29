@@ -6,6 +6,7 @@ import iCalendarPlugin from '@fullcalendar/icalendar';
 import FullCalendar from '@fullcalendar/react';
 import listPlugin from '@fullcalendar/list';
 import useWindowDimensions from '../../useWindowDimensions';
+import './EventsCalendar.css';
 
 function EventsCalendar() {
   usePageTitle('Events Calendar  | Girton JCR');
@@ -30,7 +31,7 @@ function EventsCalendar() {
           plugins={[dayGridPlugin, iCalendarPlugin]}
           initialView={'dayGridMonth'}
           events={{
-            url: 'https://girtonjcr.soc.srcf.net/jcr_calendar.ics',
+            url: 'https://girtonjcr.co.uk/jcr_calendar.ics',
             format: 'ics',
           }}
           eventColor="#154732"
