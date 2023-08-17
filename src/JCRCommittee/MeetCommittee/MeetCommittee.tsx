@@ -37,7 +37,8 @@ function MeetCommittee() {
           return (
             <>
               <b>{member.Role}: </b>
-              {member.FirstName} {member.LastName} ({member.Pronouns}){' '}
+              {member.FirstName} {member.LastName}{' '}
+              {member.Pronouns ? '(' + member.Pronouns + ')' : ''}{' '}
               <a href={'mailto:' + email}>{email}</a>
               <br />
             </>
