@@ -20,7 +20,7 @@ function EventsCalendar() {
           plugins={[listPlugin, iCalendarPlugin]}
           initialView={'listMonth'}
           events={{
-            url: 'https://girtonjcr.soc.srcf.net/jcr_calendar.ics',
+            url: 'https://www.girtonjcr.co.uk/jcr_calendar.ics',
             format: 'ics',
           }}
           eventColor="#154732"
@@ -31,13 +31,19 @@ function EventsCalendar() {
           plugins={[dayGridPlugin, iCalendarPlugin]}
           initialView={'dayGridMonth'}
           events={{
-            url: 'https://girtonjcr.co.uk/jcr_calendar.ics',
+            url: 'https://www.girtonjcr.co.uk/jcr_calendar.ics',
             format: 'ics',
           }}
           eventColor="#154732"
         />
       )}
-
+      <p>
+        Want to subscribe to this calendar? Use{' '}
+        <a href="https://calendar.google.com/calendar/u/1?cid=OTcxMzFmYTYyOGUzNTgwN2U5ZDgzZTU3MTYxMjk4YWJjNmFhMjYxMmQyZjA5ZmIwZGY2ZTc5NThlMDVlYTA5MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t">
+          this link
+        </a>{' '}
+        to subscribe to the JCR Events Calendar on whichever system you use.
+      </p>
       <p>
         This event calendar will be updated before each term. If you have any
         queries or suggestions on events you think the JCR should run for
