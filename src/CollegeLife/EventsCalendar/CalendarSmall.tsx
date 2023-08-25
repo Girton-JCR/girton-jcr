@@ -1,0 +1,21 @@
+import iCalendarPlugin from '@fullcalendar/icalendar';
+import FullCalendar from '@fullcalendar/react';
+import listPlugin from '@fullcalendar/list';
+import React from 'react';
+
+function CalendarSmall () {
+  return (
+    <FullCalendar
+      plugins={[listPlugin, iCalendarPlugin]}
+      headerToolbar={{ left: 'title', center: '', right: 'prev,next' }}
+      initialView={'listMonth'}
+      events={{
+        url: 'https://www.girtonjcr.co.uk/jcr_calendar.ics',
+        format: 'ics',
+      }}
+      eventColor="#154732"
+    />
+  );
+}
+
+export default CalendarSmall;

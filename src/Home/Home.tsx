@@ -3,6 +3,7 @@ import '../index.css';
 import './Home.css';
 import usePageTitle from '../usePageTitle';
 import InstaFeeds from './InstaFeed';
+import CalendarSmall from '../CollegeLife/EventsCalendar/CalendarSmall'
 
 function Home() {
   usePageTitle('Home | Girton JCR');
@@ -40,7 +41,7 @@ function Home() {
           />
         </div>
         <div className="HomeItem">
-          <h2>Blog coming soon!</h2>
+          <CalendarSmall />
         </div>
       </div>
     </div>
