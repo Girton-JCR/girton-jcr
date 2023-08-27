@@ -1,12 +1,12 @@
+.WebIcon {
+  max-height: 32px;
+}
+
 .SocialIcon {
   max-height: 32px;
   filter: invert(100%);
   margin-right: 5px;
   margin-top: 10px;
-}
-
-.WebIcon {
-  max-height: 32px;
 }
 
 .TextSection {
