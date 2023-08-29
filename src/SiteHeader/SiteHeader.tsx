@@ -192,15 +192,6 @@ export default function SiteHeader(props: Props) {
   const [menuOpen, setMenuOpen] = useState(false);
   // use this to display an important notice in the header on all pages.
   const [showBanner, setShowBanner] = useState(true);
-  const [animation, setAnimation] = useState('open');
-
-  const hide = async (ms: number) => {
-    setAnimation('close');
-
-    await new Promise((r) => setTimeout(r, ms));
-
-    setShowBanner(false);
-  };
 
   const location = useLocation();
   useEffect(() => {

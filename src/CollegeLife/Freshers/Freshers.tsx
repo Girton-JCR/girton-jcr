@@ -25,15 +25,22 @@ function Freshers() {
         account. Facebook, while admittedly an old-people thing, is massively
         popular in Cambridge as it&apos;s used to promote events, look up
         information, and join societies. We&apos;ll share details of our
-        Facebook groups and chats later. Our instagram is:{' '}
+        Facebook groups and chats later. Our Instagram is:{' '}
         <a
-          href="https://www.instagram.com/girtonjcr/"
+          href="https://www.Instagram.com/girtonjcr/"
           target="_blank"
           rel="noreferrer"
         >
           @girtonjcr
         </a>
-        .
+        . We also have an Instagram for freshers&apos; week info:{' '}
+        <a
+          href="https://www.Instagram.com/girtonfreshers2023/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          @girtonfreshers2023
+        </a>
       </p>
       <p>A couple of things I would do if I were you:</p>
       <ul>
