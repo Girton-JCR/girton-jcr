@@ -190,6 +190,17 @@ function NavMenu(props: NavProps) {
 export default function SiteHeader(props: Props) {
   const win = useWindowDimensions();
   const [menuOpen, setMenuOpen] = useState(false);
+  // use this to display an important notice in the header on all pages.
+  const [showBanner, setShowBanner] = useState(true);
+  const [animation, setAnimation] = useState('open');
+
+  const hide = async (ms: number) => {
+    setAnimation('close');
+
+    await new Promise((r) => setTimeout(r, ms));
+
+    setShowBanner(false);
+  };
 
   const location = useLocation();
   useEffect(() => {
@@ -225,6 +236,40 @@ export default function SiteHeader(props: Props) {
                   <NavLinkBar variant="dense">
                     <NavMenu setMenuOpen={setMenuOpen} />
                   </NavLinkBar>
+                )}
+                {showBanner && (
+                  <>
+                    <div
+                      className={`Banner open`}
+                      style={{
+                        backgroundColor: '#3a6b54',
+                        flexDirection: 'row',
+                        display: 'flex',
+                        alignItems: 'center',
+                        padding: '0px 10px',
+                      }}
+                    >
+                      <p style={{ marginTop: 0 }}>
+                        Are you an incoming fresher? Be sure to follow
+                        Girton&apos;s dedicated Instagram for Freshers&apos;
+                        Week 2023!{' '}
+                        <a
+                          href="https://www.instagram.com/girtonfreshers2023/"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={{ color: '#ffffff' }}
+                        >
+                          @girtonfreshers2023
+                        </a>
+                      </p>
+                      <img
+                        src={'/menu-close.svg'}
+                        style={{ filter: 'invert(100%)', marginLeft: 'auto' }}
+                        height="36px"
+                        onClick={() => setShowBanner(false)}
+                      />
+                    </div>
+                  </>
                 )}
               </StyledAppBar>
             </HideOnScroll>

@@ -3,7 +3,7 @@ import '../index.css';
 import './Home.css';
 import usePageTitle from '../usePageTitle';
 import InstaFeeds from './InstaFeed';
-import CalendarSmall from '../CollegeLife/EventsCalendar/CalendarSmall'
+import CalendarSmall from '../CollegeLife/EventsCalendar/CalendarSmall';
 
 function Home() {
   usePageTitle('Home | Girton JCR');
