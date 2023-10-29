@@ -191,7 +191,7 @@ export default function SiteHeader(props: Props) {
   const win = useWindowDimensions();
   const [menuOpen, setMenuOpen] = useState(false);
   // use this to display an important notice in the header on all pages.
-  const [showBanner, setShowBanner] = useState(true);
+  const [showBanner, setShowBanner] = useState(false);
 
   const location = useLocation();
   useEffect(() => {

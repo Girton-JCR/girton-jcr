@@ -40,7 +40,8 @@ function WhatIsJCR() {
         </li>
       </ol>
       <p>
-        You can download the JCR Constitution (last amended 2021) as a pdf{' '}
+        You can download the JCR Constitution (last amended November 2022) as a
+        pdf{' '}
         <a href="JCR CONSTITUTION.pdf" target="_blank" rel="noreferrer">
           here
         </a>
