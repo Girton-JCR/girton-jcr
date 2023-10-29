@@ -45,8 +45,15 @@ function WhatIsJCR() {
         <a href="JCR CONSTITUTION.pdf" target="_blank" rel="noreferrer">
           here
         </a>
-        . Please note the JCR President is currently conducting an overhaul of
-        the constitution, which will be available soon.
+        .
+      </p>
+      <p>
+        An addendum to the constitution describing the roles of individual JCR
+        officers is available{' '}
+        <a href="JCR ADDENDUM.pdf" target="_blank" rel="noreferrer">
+          here
+        </a>
+        .
       </p>
       <p>
         You can submit anonymous feedback and questions to the JCR via this{' '}

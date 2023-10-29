@@ -28,13 +28,6 @@ function MeetCommittee() {
       style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
     >
       <h1>Meet the Committee</h1>
-      <p>
-        Information on JCR roles and their responsibilities can be found{' '}
-        <a href="JCR ADDENDUM.pdf" target="_blank" rel="noreferrer">
-          here
-        </a>
-        .
-      </p>
       <h2 style={{ marginTop: '0' }}>The Committee at a Glance</h2>
       <p>
         {CommitteeMembers.map((member) => {
