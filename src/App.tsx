@@ -35,8 +35,14 @@ function App() {
             <Route path="/events-calendar" Component={EventsCalendar} />
             <Route path="/freshers" Component={Freshers} />
             <Route path="/" Component={Home} />
+            <Route
+              path="/jcr-news"
+              Component={() => {
+                window.location.href = 'https://girtonjcr.blogspot.com';
+                return null;
+              }}
+            />
             <Route path="/it-resources" Component={ITResources} />
-            <Route path="/jcr-news" Component={JCRNews} />
             <Route path="/meet-the-committee" Component={MeetCommittee} />
             <Route path="/societies-list" Component={Societies} />
             <Route path="/transport" Component={Transport} />

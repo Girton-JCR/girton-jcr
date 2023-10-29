@@ -122,7 +122,8 @@ function NavMenu(props: NavProps) {
             <ButtonText to="/what-is-the-JCR">
               <SMenuItem>What is the JCR?</SMenuItem>
             </ButtonText>
-            <ButtonText to="/JCR-news">
+
+            <ButtonText to="/jcr-news">
               <SMenuItem>JCR News</SMenuItem>
             </ButtonText>
             <ButtonText to="/meet-the-committee">
