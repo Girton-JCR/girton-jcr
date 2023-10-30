@@ -160,6 +160,12 @@ function Catering() {
         </a>
         .
       </p>
+      <h3>Reciprocal Dining Rights</h3>
+      <p>
+        Girton has reciprocal dining rights with Downing and Robinson Colleges,
+        meaning you can eat there for the same price as Downing or Robinson
+        students. All you need to do is pay with your camcard!
+      </p>
       <h3>Self-Catering</h3>
       <p>
         There is no obligation to ever eat in college, though a few free events
