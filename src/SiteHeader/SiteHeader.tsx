@@ -123,7 +123,13 @@ function NavMenu(props: NavProps) {
               <SMenuItem>What is the JCR?</SMenuItem>
             </ButtonText>
 
-            <ButtonText to="/jcr-news">
+            <ButtonText
+              to={{}}
+              onClick={() => {
+                window.location.href = 'https://girtonjcr.blogspot.com';
+                return null;
+              }}
+            >
               <SMenuItem>JCR News</SMenuItem>
             </ButtonText>
             <ButtonText to="/meet-the-committee">
