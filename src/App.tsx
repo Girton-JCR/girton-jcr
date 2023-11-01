@@ -15,7 +15,6 @@ import EventsCalendar from './CollegeLife/EventsCalendar/EventsCalendar';
 import Welfare from './Welfare/Welfare';
 import WhatIsJCR from './JCRCommittee/WhatIsJCR/WhatIsJCR';
 import Home from './Home/Home';
-import JCRNews from './JCRCommittee/JCRNews/JCRNews';
 import Societies from './Societies/Societies';
 import MeetCommittee from './JCRCommittee/MeetCommittee/MeetCommittee';
 
