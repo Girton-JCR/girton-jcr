@@ -180,15 +180,6 @@
     "Website": ""
   },
   {
-    "Title": "Girton Finance Society ",
-    "Image": "",
-    "Category": "Other",
-    "Description": "",
-    "Facebook": "",
-    "Instagram": "",
-    "Website": ""
-  },
-  {
     "Title": "Girton FemSoc",
     "Image": "/Societies/Femsoc.png",
     "Category": "Other",
@@ -482,5 +473,23 @@
     "Category": "Other",
     "Instagram": "https://instagram.com/girtonbingosoc",
     "Description": "We hold up to 3 events per term where everyone is invited to play bingo! Whether you’ve never played before or are a seasoned professional, join us for an extravaganza. Each event is themed and in collaboration with a different Girton society. We also tend to work closely with the Social Hub to produce specialty drinks for our events, as well as with many staff members on our social media. Entry is free for all and lots of prizes are up for grabs! Bingo Society is about bringing everyone together, making new friends and playing some light-hearted bingo! For more information follow our Instagram or email (girtonbingosoc@gmail.com)."
+  },
+  {
+    "Title": "Girton Finance and Consulting Society",
+    "Description": "Description: Student-run organisation providing opportunities and mentorship for Girtonians interested in finance and consulting. Events will include a market watch tournament, workshops on CVs and spring weeks, and external speakers",
+    "Image": "/Societies/Finance.png",
+    "Category": "Other"
+  },
+  {
+    "Title": "Girton College Climbing Society",
+    "Category": "Sport"
+  },
+  {
+    "Title": "Girton Botanical Society",
+    "Category": "Other"
+  },
+  {
+    "Title": "Girton College Table Top Role Playing Society",
+    "Category": "Other"
   }
 ]
