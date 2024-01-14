@@ -75,6 +75,44 @@ function Welfare() {
         </a>
         .
       </p>
+      <h3>NHS Prescription Reimbursement</h3>
+      <p>
+        Health and wellbeing problems are a source of stress for many students,
+        especially those with longstanding health conditions. Therefore, to
+        reduce the additional financial burden that accompanies many health
+        problems, the JCR will reimburse students&apos; NHS prescriptions. We
+        hope this scheme will provide reassurance and peace of mind to those
+        concerned about the financial implications of falling ill, as well as
+        reducing disability inequality for students.
+        <ul>
+          <li>
+            Students can claim reimbursement for prescriptions costs using{' '}
+            <a
+              href="https://docs.google.com/forms/d/1ptM7Yy1HVaR-7T3blm32kwOkCH5eTPDKhqQCQk-jUMs/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              this form
+            </a>
+            .
+          </li>
+          <li>
+            You will need to upload a photo of the NHS prescription payment
+            confirmation. For confidentiality, please do not include any details
+            about your illness or the medication itself.
+          </li>
+          <li>Students can claim costs for up to 6 prescriptions per year.</li>
+          <li>
+            Once the photo receipt has been sent, the cost of the prescription
+            will be refunded to you via your college bill at the end of the
+            term.
+          </li>
+          <li>
+            Claims can only be made for prescriptions purchased after the start
+            of Lent term 2024.
+          </li>
+        </ul>
+      </p>
       <h3>Sexual Health</h3>
       <p>
         The JCR Welfare Officers are also responsible for supporting the
