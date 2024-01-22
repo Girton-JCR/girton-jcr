@@ -8,10 +8,10 @@
   },
   {
     "Role": "Accommodation Officer",
-    "FirstName": "Alex",
-    "LastName": "Howe",
-    "Pronouns": "she/her",
-    "Image": "Alex.jpg"
+    "FirstName": "Amelia",
+    "LastName": "Harris",
+    "Pronouns": "",
+    "Image": "default.svg"
   },
   {
     "Role": "Sustainability & Ethical Affairs Officer",
@@ -22,10 +22,10 @@
   },
   {
     "Role": "Access & Academic Officer",
-    "FirstName": "Cheyenne",
-    "LastName": "Williams",
-    "Pronouns": "she/her",
-    "Image": "Cheyenne.jpg"
+    "FirstName": "Alpha",
+    "LastName": "Ngai",
+    "Pronouns": "",
+    "Image": "default.svg"
   },
   {
     "Role": "Executive Secretary",
@@ -43,17 +43,17 @@
   },
   {
     "Role": "Women's Officer",
-    "FirstName": "Emma",
-    "LastName": "Hain",
-    "Pronouns": "she/her",
-    "Image": "Emma.png"
+    "FirstName": "Beatrix",
+    "LastName": "Harnett",
+    "Pronouns": "",
+    "Image": "default.svg"
   },
   {
     "Role": "Socio-Economic Inclusivity Officer",
-    "FirstName": "Fiona",
-    "LastName": "Peddie",
-    "Pronouns": "she/her",
-    "Image": "Fiona.jpg"
+    "FirstName": "Mike",
+    "LastName": "Wilson",
+    "Pronouns": "",
+    "Image": "default.svg"
   },
   {
     "Role": "Ethnic Minorities Officer",
@@ -61,13 +61,6 @@
     "LastName": "Abdelatti",
     "Pronouns": "she/her",
     "Image": "Hadeal.jpg"
-  },
-  {
-    "Role": "Vice-President",
-    "FirstName": "Hasan",
-    "LastName": "Lone",
-    "Pronouns": "he/him",
-    "Image": "Hasan.jpg"
   },
   {
     "Role": "President",
@@ -84,13 +77,6 @@
     "Image": "Ioan.jpg"
   },
   {
-    "Role": "Bike Officer",
-    "FirstName": "Jake",
-    "LastName": "Barnes",
-    "Pronouns": "he/him",
-    "Image": "Jake.jpg"
-  },
-  {
     "Role": "Treasurer",
     "FirstName": "Jared",
     "LastName": "Seabrook-Wafer",
@@ -99,10 +85,10 @@
   },
   {
     "Role": "Sports Officer",
-    "FirstName": "Luke",
-    "LastName": "Challender",
-    "Pronouns": "he/him",
-    "Image": "Luke.jpg"
+    "FirstName": "Solomon",
+    "LastName": "Allen",
+    "Pronouns": "",
+    "Image": "default.svg"
   },
   {
     "Role": "Physical & Mental Disabilities Officer",
@@ -113,10 +99,10 @@
   },
   {
     "Role": "Transgender & Non-Binary Officer",
-    "FirstName": "Quinn",
-    "LastName": "Vakharia",
-    "Pronouns": "they/them",
-    "Image": "Quinn.jpg"
+    "FirstName": "Alexis",
+    "LastName": "Vargas Richards",
+    "Pronouns": "",
+    "Image": "default.svg"
   },
   {
     "Role": "IT Officer",
@@ -133,24 +119,17 @@
     "Image": "Stine.jpg"
   },
   {
-    "Role": "Freshers' Representative",
-    "FirstName": "Tabita",
-    "LastName": "Bobs",
-    "Pronouns": "she/her",
-    "Image": "Tabita.jpg"
-  },
-  {
-    "Role": "Events Officer",
-    "FirstName": "Zara",
-    "LastName": "Wedgewood",
-    "Pronouns": "she/her",
-    "Image": "Zara.jpg"
-  },
-  {
     "Role": "Welfare Officer",
     "FirstName": "Zelda",
     "LastName": "Brufal",
     "Pronouns": "she/her",
     "Image": "Zelda.jpg"
+  },
+  {
+    "Role": "Welfare Officer",
+    "FirstName": "Matt",
+    "LastName": "Wright",
+    "Pronouns": "",
+    "Image": "default.svg"
   }
 ]
