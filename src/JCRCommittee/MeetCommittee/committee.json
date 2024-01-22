@@ -11,7 +11,7 @@
     "FirstName": "Amelia",
     "LastName": "Harris",
     "Pronouns": "",
-    "Image": "default.svg"
+    "Image": "Amelia.jpg"
   },
   {
     "Role": "Sustainability & Ethical Affairs Officer",
@@ -25,7 +25,7 @@
     "FirstName": "Alpha",
     "LastName": "Ngai",
     "Pronouns": "",
-    "Image": "default.svg"
+    "Image": "Alpha.jpg"
   },
   {
     "Role": "Executive Secretary",
@@ -46,7 +46,7 @@
     "FirstName": "Beatrix",
     "LastName": "Harnett",
     "Pronouns": "",
-    "Image": "default.svg"
+    "Image": "Beatrix.jpg"
   },
   {
     "Role": "Socio-Economic Inclusivity Officer",
@@ -102,7 +102,7 @@
     "FirstName": "Alexis",
     "LastName": "Vargas Richards",
     "Pronouns": "",
-    "Image": "default.svg"
+    "Image": "Alexis.jpg"
   },
   {
     "Role": "IT Officer",
@@ -130,6 +130,6 @@
     "FirstName": "Matt",
     "LastName": "Wright",
     "Pronouns": "",
-    "Image": "default.svg"
+    "Image": "Matt.jpg"
   }
 ]
