@@ -126,10 +126,31 @@
     "Image": "Zelda.jpg"
   },
   {
-    "Role": "Welfare Officer",
-    "FirstName": "Matt",
-    "LastName": "Wright",
+    "Role": "Vice President",
+    "FirstName": "",
+    "LastName": "",
     "Pronouns": "",
-    "Image": "Matt.jpg"
+    "Image": ""
+  },
+  {
+    "Role": "Freshers' Representative",
+    "FirstName": "",
+    "LastName": "",
+    "Pronouns": "",
+    "Image": ""
+  },
+  {
+    "Role": "Events Officer",
+    "FirstName": "",
+    "LastName": "",
+    "Pronouns": "",
+    "Image": ""
+  },
+  {
+    "Role": "Bike Officer",
+    "FirstName": "",
+    "LastName": "",
+    "Pronouns": "",
+    "Image": ""
   }
 ]

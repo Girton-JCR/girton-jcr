@@ -37,15 +37,15 @@ function MeetCommittee() {
           return (
             <>
               <b>{member.Role}: </b>
-              {member.FirstName} {member.LastName}{' '}
-              {member.Pronouns ? '(' + member.Pronouns + ')' : ''}{' '}
+              {/*{member.FirstName} {member.LastName}{' '}
+              {member.Pronouns ? '(' + member.Pronouns + ')' : ''}{' '}*/}
               <a href={'mailto:' + email}>{email}</a>
               <br />
             </>
           );
         })}
       </p>
-      <div className="MemberGallery">
+      {/*<div className="MemberGallery">
         {CommitteeMembers.map((member) => {
           return (
             <>
@@ -58,11 +58,11 @@ function MeetCommittee() {
                   className="JCRMemberPhoto"
                   src={'/Committee/' + member.Image}
                 />
-              </div>
+          </div>
             </>
           );
         })}
-      </div>
+      </div>*/}
     </div>
   );
 }
