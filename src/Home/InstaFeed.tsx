@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 
 import Feed from './Feed';
-import { Grid } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 
 interface Props {
   token: string;
@@ -34,7 +34,7 @@ const InstaFeeds = (props: Props) => {
       }
     }
 
-    // manually call the fecth function
+    // manually call the fetch function
     fetchInstagramPost();
 
     return () => {
@@ -45,7 +45,8 @@ const InstaFeeds = (props: Props) => {
 
   return (
     <Grid container className="Feed" spacing={2}>
-      {feeds.map(
+      {feeds.length > 0
+        ? feeds.map(
         (feed: {
           id: string;
           caption: string;
@@ -54,7 +55,7 @@ const InstaFeeds = (props: Props) => {
         }) => (
           <Feed key={feed.id} feed={feed} />
         )
-      )}
+      ) : <p style={{ padding: 32 }}>No posts found, please check back later.</p>}
     </Grid>
   );
 };

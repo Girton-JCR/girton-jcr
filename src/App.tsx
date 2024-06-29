@@ -16,6 +16,7 @@ import WhatIsJCR from './JCRCommittee/WhatIsJCR/WhatIsJCR';
 import Home from './Home/Home';
 import Societies from './Societies/Societies';
 import MeetCommittee from './JCRCommittee/MeetCommittee/MeetCommittee';
+import CharityCommitments from './JCRCommittee/CharityCommitments/CharityCommitments';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
             />
             <Route path="/it-resources" Component={ITResources} />
             <Route path="/meet-the-committee" Component={MeetCommittee} />
+            <Route path="/charity-commitments" Component={CharityCommitments} />
             <Route path="/societies-list" Component={Societies} />
             <Route path="/transport" Component={Transport} />
             <Route path="/welfare" Component={Welfare} />

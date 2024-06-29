@@ -1,0 +1,9 @@
+[
+    { "name": "Parkinson’s UK", "link": "https://www.parkinsons.org.uk", "description": "Supports those with Parkinson’s and funds research into a cure" },
+    { "name": "MIND", "link": "https://www.mind.org.uk", "description": "Provides support for mental health, does advocacy work and connects communities together" },
+    { "name": "Make a wish", "link": "https://www.make-a-wish.org.uk", "description": "Grants wishes to children with critical illnesses" },
+    { "name": "Palestinian’s Children Relief Fund", "link": "https://www.pcrf.net", "description": "Provides medical relief and humanitarian aid to children in Palestine" },
+    { "name": "Medical Aid for Palestinians", "link": "https://www.map.org.uk", "description": "Helps to provide aid and support refugees from Palestine" },
+    { "name": "Diabetes UK", "link": "https://www.diabetes.org.uk", "description": "Raises awareness of Diabetes, creates communities for support" },
+    { "name": "Refuge UK", "link": "https://refuge.org.uk", "description": "Helps women escape and recover from domestic abuse" }
+]
