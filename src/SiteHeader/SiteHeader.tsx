@@ -135,6 +135,9 @@ function NavMenu(props: NavProps) {
             <ButtonText to="/meet-the-committee">
               <SMenuItem>Meet the Committee</SMenuItem>
             </ButtonText>
+            <ButtonText to="/charity-commitments">
+              <SMenuItem>Supported Charities</SMenuItem>
+            </ButtonText>
           </MenuList>
         </DropDown>
         <DropDown name={'College Life'}>

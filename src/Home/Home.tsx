@@ -1,4 +1,3 @@
-import React from 'react';
 import '../index.css';
 import './Home.css';
 import usePageTitle from '../usePageTitle';
@@ -7,7 +6,7 @@ import CalendarSmall from '../CollegeLife/EventsCalendar/CalendarSmall';
 
 function Home() {
   usePageTitle('Home | Girton JCR');
-  const key = process.env['REACT_APP_INSTAGRAM_KEY'];
+  const key = import.meta.env['REACT_APP_INSTAGRAM_KEY'];
   return (
     <div className="Home">
       <div className="HomeGrid">
