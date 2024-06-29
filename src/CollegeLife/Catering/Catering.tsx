@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../index.css';
 import usePageTitle from '../../usePageTitle';
 import CateringMap from './CateringMap';
