@@ -9,7 +9,7 @@ function CalendarSmall () {
       headerToolbar={{ left: 'title', center: '', right: 'prev,next' }}
       initialView={'listMonth'}
       events={{
-        url: '/jcr calendar.ics',
+        url: '/jcr_calendar.ics',
         format: 'ics',
       }}
       eventColor="#154732"
