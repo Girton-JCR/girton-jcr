@@ -14,7 +14,7 @@ function CharityCommitments() {
         We are fortunate enough to be able to provide support to many charities. Below you can find a list of our currently supported charities.
       </p>
       <br />
-      <table style={{ borderCollapse: 'collapse' }}>
+      <table style={{ borderCollapse: 'collapse', width: "100%" }}>
         <thead>
           <tr style={{ borderBottom: '2pt solid black' }}>
             <th style={{ padding: "8px" }}>Charity Name</th>
@@ -37,7 +37,7 @@ function CharityCommitments() {
         Below is a list of all charities that we have previously supported.
       </p>
       <br />
-      <table style={{ borderCollapse: 'collapse' }}>
+      <table style={{ borderCollapse: 'collapse', width: "100%" }}>
         <thead>
           <tr style={{ borderBottom: '2pt solid black' }}>
             <th style={{ padding: "8px" }}>Charity Name</th>
