@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+The site uses bun and vite to run. Npm/pnpm should also work, but I've not tested it. To run the site in dev mode, clone it and run
 ```
+bun install
+bun run dev
+```
+(replace `bun` with `npm` or `pnpm` as required).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This should start a local version of the site.
+
+The live site should automatically rebuild at 3am nightly from the latest commit. If you want to manually rebuild the live site, you need to ssh in to the server and run `girtonjcr/.daily.sh`.
+
+Since we're now using Vite instead of create-react-app it should run much faster and have less weird issues with all of the extra packages create-react-app wants. We also get faster builds and better dev startup times (a few hundred milliseconds instead of 10-20s). Currently any 'server' style tasks that would need to pull from a public api are done by scripts (currently just the live calendar) - ideally this could be done via a proper server like express, but for now the scripts are simpler and get the job done.
