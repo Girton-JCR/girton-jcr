@@ -13,10 +13,10 @@ function CalendarLarge() {
       plugins={[dayGridPlugin, iCalendarPlugin]}
       initialView={'dayGridMonth'}
       events={{
-        url: 'https://www.girtonjcr.co.uk/jcr_calendar.ics',
+        url: '/jcr_calendar.ics',
         format: 'ics',
       }}
-      //eventColor="#154732"
+      eventColor="#154732"
     />
   );
 }
