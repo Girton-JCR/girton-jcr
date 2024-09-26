@@ -1,20 +1,21 @@
 import '../../index.css';
 import usePageTitle from '../../usePageTitle';
 import dayGridPlugin from '@fullcalendar/daygrid';
-import iCalendarPlugin from '@fullcalendar/icalendar';
 import FullCalendar from '@fullcalendar/react';
+import googleCalendarPlugin from '@fullcalendar/google-calendar';
 import CalendarSmall from './CalendarSmall';
 import useWindowDimensions from '../../useWindowDimensions';
 import './EventsCalendar.css';
+import config from '../../config';
 
 function CalendarLarge() {
   return (
     <FullCalendar
-      plugins={[dayGridPlugin, iCalendarPlugin]}
+      plugins={[dayGridPlugin, googleCalendarPlugin]}
       initialView={'dayGridMonth'}
+      googleCalendarApiKey={config.GOOGLE_KEY}
       events={{
-        url: '/jcr_calendar.ics',
-        format: 'ics',
+        googleCalendarId: '97131fa628e35807e9d83e57161298abc6aa2612d2f09fb0df6e7958e05ea091@group.calendar.google.com'
       }}
       eventColor="#154732"
     />

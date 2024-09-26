@@ -22,15 +22,20 @@ const InstaFeeds = (props: Props) => {
 
     async function fetchInstagramPost() {
       try {
-        axios
-          .get(
-            `https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&limit=${props.limit}&access_token=${props.token}`
-          )
+        await axios
+          .get( `https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&limit=${props.limit}&access_token=${props.token}`)
           .then((resp) => {
-            setFeedsData(resp.data.data);
+            if (resp.status === 400) {
+              console.log('Failed to load instagram feed');
+            } else {
+              setFeedsData(resp.data.data);
+            }
+          })
+          .catch((err) => {
+            console.log('Failed to load instagram feed: ', err);
           });
       } catch (err) {
-        console.log('error', err);
+        console.log('Failed to load instagram feed: ', err);
       }
     }
 

@@ -3,10 +3,10 @@ import './Home.css';
 import usePageTitle from '../usePageTitle';
 import InstaFeeds from './InstaFeed';
 import CalendarSmall from '../CollegeLife/EventsCalendar/CalendarSmall';
+import config from '../config';
 
 function Home() {
   usePageTitle('Home | Girton JCR');
-  const key = import.meta.env['REACT_APP_INSTAGRAM_KEY'];
   return (
     <div className="Home">
       <div className="HomeGrid">
@@ -31,13 +31,14 @@ function Home() {
             Girton JCR Committee 2023
           </div>
         </div>
-        <div className="HomeItem">
-          <h2>Recent Instagram Posts</h2>
+        <div className="HomeItem" style={{ justifyContent: 'center' }}>
+          <h2 style={{ opacity: 0.4 }}>More Coming Soon</h2>
+          {/* <h2>Recent Instagram Posts</h2>
           <InstaFeeds
-            token={key !== undefined ? key : 'none'}
+            token={config.INSTAGRAM_KEY}
             limit={24}
             id="aaa"
-          />
+          /> */}
         </div>
         <div className="HomeItem">
           <CalendarSmall />
