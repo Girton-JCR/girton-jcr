@@ -25,7 +25,7 @@ function App() {
         <SiteHeader>
           <div />
         </SiteHeader>
-        <main>
+        <main className="Main">
           <Routes>
             <Route path="/accommodation" Component={Accommodation} />
             <Route path="/booking-facilities" Component={BookingFacilities} />

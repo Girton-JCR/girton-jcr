@@ -85,7 +85,7 @@ const HamburgerTitle = styled(Box)({
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
-  padding: '0 15px',
+  padding: '0 24px',
 });
 
 interface NavProps {
@@ -97,14 +97,10 @@ function NavMenu(props: NavProps) {
   return (
     <>
       <div className="NavBox">
-        {win.width <= 700 && (
+        {win.width <= 800 && (
           <HamburgerTitle>
             <div style={{ flexGrow: 1 }}>
-              <img
-                className="HeaderText"
-                src="/header-text.svg"
-                width={'100%'}
-              />
+              <h1 style={{ color: "white", letterSpacing: 1, margin: 0, padding: 0, width: "auto", textAlign: "left", fontSize: win.width * 0.08 }}>Girton College JCR</h1>
             </div>
             <img
               src={'/menu-close.svg'}
@@ -211,20 +207,16 @@ export default function SiteHeader(props: Props) {
   return (
     <React.Fragment>
       <>
-        {(win.width > 700 || !menuOpen) && (
+        {(win.width > 800 || !menuOpen) && (
           <>
             <HideOnScroll {...props}>
               <StyledAppBar>
                 <TitleBar>
                   <div style={{ flexGrow: 1 }}>
-                    <img
-                      className="HeaderText"
-                      src="/header-text.svg"
-                      width={'100%'}
-                    />
+                    <h1 style={{ letterSpacing: 1, margin: 0, padding: 0, width: "auto", textAlign: "left", fontSize: win.width > 800 ? "64px" : win.width * 0.08 }}>Girton College JCR</h1>
                   </div>
-                  {win.width > 700 && <img src="/logo.jpg" height="128px" />}
-                  {win.width <= 700 && (
+                  {win.width > 800 && <img src="/logo.jpg" height="128px" />}
+                  {win.width <= 800 && (
                     <img
                       src={'/menu-icon.svg'}
                       style={{ filter: 'invert(100%)' }}
@@ -233,7 +225,7 @@ export default function SiteHeader(props: Props) {
                     />
                   )}
                 </TitleBar>
-                {win.width > 700 && (
+                {win.width > 800 && (
                   <NavLinkBar variant="dense">
                     <NavMenu setMenuOpen={setMenuOpen} />
                   </NavLinkBar>
@@ -277,7 +269,7 @@ export default function SiteHeader(props: Props) {
             <Toolbar />
           </>
         )}
-        {win.width <= 700 && menuOpen && <NavMenu setMenuOpen={setMenuOpen} />}
+        {win.width <= 800 && menuOpen && <NavMenu setMenuOpen={setMenuOpen} />}
       </>
     </React.Fragment>
   );
