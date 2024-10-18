@@ -35,10 +35,7 @@ function MeetCommittee() {
           )?.Email;
           return (
             <>
-              <b>{member.Role}: </b>
-              {/*{member.FirstName} {member.LastName}{' '}
-              {member.Pronouns ? '(' + member.Pronouns + ')' : ''}{' '}*/}
-              <a href={'mailto:' + email}>{email}</a>
+              <b>{member.Role}: </b> {member.FirstName} {member.LastName} - <a href={'mailto:' + email}>{email}</a>
               <br />
             </>
           );
