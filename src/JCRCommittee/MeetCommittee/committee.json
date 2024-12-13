@@ -8,17 +8,17 @@
   },
   {
     "Role": "Vice-President",
-    "FirstName": "Luisa",
-    "LastName": "Armitage",
+    "FirstName": "Anna",
+    "LastName": "Woolley",
     "Pronouns": "",
-    "Image": "Luisa.jpg"
+    "Image": "Anna.jpg"
   },
   {
     "Role": "Treasurer",
-    "FirstName": "Jared",
-    "LastName": "Seabrook-Wafer",
-    "Pronouns": "he/him",
-    "Image": "Jared.jpg"
+    "FirstName": "Sarah",
+    "LastName": "Grogan",
+    "Pronouns": "",
+    "Image": "Sarah.jpg"
   },
   {
     "Role": "Executive Secretary",
@@ -57,38 +57,38 @@
   },
   {
     "Role": "Physical & Mental Disabilities Officer",
-    "FirstName": "Anouska",
-    "LastName": "Cowen",
+    "FirstName": "Louis",
+    "LastName": "Norcup",
     "Pronouns": "",
-    "Image": "Anouska.jpg"
+    "Image": "Louis.jpg"
   },
   {
     "Role": "Socio-Economic Inclusivity Officer",
-    "FirstName": "",
-    "LastName": "",
+    "FirstName": "Fiona",
+    "LastName": "Peddie",
     "Pronouns": "",
-    "Image": "default.svg"
+    "Image": "Fiona.jpg"
   },
   {
     "Role": "Transgender & Non-Binary Officer",
-    "FirstName": "Alexis",
-    "LastName": "Richards",
-    "Pronouns": "she/her",
-    "Image": "Alexis.jpg"
+    "FirstName": "",
+    "LastName": "",
+    "Pronouns": "",
+    "Image": ""
   },
   {
     "Role": "Women's Officer",
-    "FirstName": "Beatrix",
-    "LastName": "Harnett",
+    "FirstName": "Zerlynde",
+    "LastName": "Goik",
     "Pronouns": "",
-    "Image": "Beatrix.jpg"
+    "Image": "Zerlynde.jpg"
   },
   {
     "Role": "Freshers' Representative",
-    "FirstName": "Emma",
-    "LastName": "Phillips",
+    "FirstName": "Savannah",
+    "LastName": "Sesay",
     "Pronouns": "",
-    "Image": "Emma.jpg"
+    "Image": "Savannah.jpg"
   },
   {
     "Role": "International Officer",
@@ -106,8 +106,8 @@
   },
   {
     "Role": "Accommodation Officer",
-    "FirstName": "",
-    "LastName": "",
+    "FirstName": "Maggie",
+    "LastName": "Ketteridge",
     "Pronouns": "",
     "Image": "default.svg"
   },
@@ -120,10 +120,10 @@
   },
   {
     "Role": "Events Officer",
-    "FirstName": "",
-    "LastName": "",
+    "FirstName": "Jack",
+    "LastName": "Lee-Smith",
     "Pronouns": "",
-    "Image": "default.svg"
+    "Image": "Jack.jpg"
   },
   {
     "Role": "Sustainability & Ethical Affairs Officer",
@@ -134,10 +134,10 @@
   },
   {
     "Role": "Bike Officer",
-    "FirstName": "Rose",
-    "LastName": "Sail",
+    "FirstName": "Jules",
+    "LastName": "de Souza-Brazil",
     "Pronouns": "",
-    "Image": "Rose.jpg"
+    "Image": "Jules.jpg"
   },
   {
     "Role": "IT Officer",
@@ -148,9 +148,9 @@
   },
   {
     "Role": "Sports Officer",
-    "FirstName": "Solomon",
-    "LastName": "Allen",
+    "FirstName": "Adrienne",
+    "LastName": "Meagher",
     "Pronouns": "",
-    "Image": "Solomon.jpg"
+    "Image": "Adrienne.jpg"
   }
 ]
